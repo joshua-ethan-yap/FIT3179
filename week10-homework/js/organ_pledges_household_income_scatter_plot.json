@@ -1,0 +1,120 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Median Household Income vs. Blood Donations per 10000 Population in 2022",
+    "width": 800,
+    "height": 600,
+    "data": {
+        "url": "https://raw.githubusercontent.com/joshua-ethan-yap/FIT3179/refs/heads/main/week10-homework/data/organ_pledges_household_income_2022.csv"
+    },
+    "params": [
+        {
+            "name": "population_range",
+            "value": 500000,
+            "bind": {
+                "input": "range",
+                "min": 500000,
+                "max": 7000000,
+                "step": 100000,
+                "name": "Filter by Population Size:"
+            }
+        }
+    ],
+    "transform": [
+        {
+            "calculate": "datum.total_pledges_2022 / datum.population_2022 * 10000",
+            "as": "blood_donations_per_10k"
+        },
+        {
+            "filter": "datum.population_2022 >= population_range"
+        }
+    ],
+    "encoding": {
+        "x": {
+            "field": "median_household_income_2022",
+            "type": "quantitative",
+            "title": "Median Household Income (RM)",
+            "axis": {
+                "tickCount": 5
+            }
+        },
+        "y": {
+            "field": "blood_donations_per_10k",
+            "type": "quantitative",
+            "title": "Blood Donations per 10000 Population",
+            "axis": {
+                "tickCount": 5
+            }
+        },
+        "tooltip": [
+            {
+                "field": "state",
+                "type": "nominal",
+                "title": "State"
+            },
+            {
+                "field": "median_household_income_2022",
+                "type": "quantitative",
+                "title": "Median Household Income (RM)"
+            },
+            {
+                "field": "blood_donations_per_10k",
+                "type": "quantitative",
+                "title": "Blood Donations per 10000 Population",
+                "format": ".2f"
+            }
+        ]
+    },
+    "layer": [
+        {
+            "mark": "circle",
+            "encoding": {
+                "size": {
+                    "field": "population_2022",
+                    "type": "quantitative",
+                    "title": "Population Size",
+                    "scale": {
+                        "domain": [
+                            500000,
+                            10000000
+                        ],
+                        "range": [
+                            100,
+                            1000
+                        ],
+                        "zero": false
+                    },
+                    "legend": {
+                        "format": ".1s"
+                    }
+                },
+                "color": {
+                    "field": "state",
+                    "type": "nominal",
+                    "legend": null
+                },
+                "opacity": {
+                    "value": 0.6
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "align": "left",
+                "baseline": "middle",
+                "dx": {
+                    "expr": "datum.state == 'Pahang' ? -50 : (datum.state == 'W.P. Kuala Lumpur' ? -105 : (datum.state == 'Selangor' ? -60 : 10))"
+                }
+            },
+            "encoding": {
+                "text": {
+                    "field": "state",
+                    "type": "nominal"
+                },
+                "color": {
+                    "value": "black"
+                }
+            }
+        }
+    ]
+}
