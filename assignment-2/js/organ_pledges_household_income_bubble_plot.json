@@ -1,10 +1,10 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "Median Household Income vs. Blood Donations per 10000 Population by State in 2022",
-    "width": 515,
+    "width": 600,
     "height": 600,
     "data": {
-        "url": "https://raw.githubusercontent.com/joshua-ethan-yap/FIT3179/refs/heads/main/week10-homework/data/organ_pledges_household_income_2022.csv"
+        "url": "https://raw.githubusercontent.com/joshua-ethan-yap/FIT3179/refs/heads/main/assignment-2/data/organ_pledges_household_income_2022.csv"
     },
     "params": [
         {
@@ -21,16 +21,16 @@
     ],
     "transform": [
         {
-            "calculate": "datum.total_pledges_2022 / datum.population_2022 * 10000",
+            "calculate": "datum.total_pledges / datum.population * 10000",
             "as": "blood_donations_per_10k"
         },
         {
-            "filter": "datum.population_2022 >= population_range"
+            "filter": "datum.population >= population_range"
         }
     ],
     "encoding": {
         "x": {
-            "field": "median_household_income_2022",
+            "field": "median_household_income",
             "type": "quantitative",
             "title": "Median Household Income (RM)",
             "axis": {
@@ -52,7 +52,7 @@
                 "title": "State"
             },
             {
-                "field": "median_household_income_2022",
+                "field": "median_household_income",
                 "type": "quantitative",
                 "title": "Median Household Income (RM)"
             },
@@ -69,7 +69,7 @@
             "mark": "circle",
             "encoding": {
                 "size": {
-                    "field": "population_2022",
+                    "field": "population",
                     "type": "quantitative",
                     "title": "Population Size",
                     "scale": {
