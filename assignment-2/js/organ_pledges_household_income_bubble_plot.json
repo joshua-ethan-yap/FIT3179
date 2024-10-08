@@ -1,7 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Median Household Income vs. Blood Donations per 10000 Population by State in 2022",
-    "width": 600,
+    "width": "container",
     "height": 600,
     "data": {
         "url": "https://raw.githubusercontent.com/joshua-ethan-yap/FIT3179/refs/heads/main/assignment-2/data/organ_pledges_household_income_2022.csv"
@@ -9,10 +8,10 @@
     "params": [
         {
             "name": "population_range",
-            "value": 500000,
+            "value": 0,
             "bind": {
                 "input": "range",
-                "min": 500000,
+                "min": 0,
                 "max": 7000000,
                 "step": 100000,
                 "name": "Filter by Population Size:"
@@ -22,7 +21,7 @@
     "transform": [
         {
             "calculate": "datum.total_pledges / datum.population * 10000",
-            "as": "blood_donations_per_10k"
+            "as": "pledges_per_10k"
         },
         {
             "filter": "datum.population >= population_range"
@@ -38,9 +37,9 @@
             }
         },
         "y": {
-            "field": "blood_donations_per_10k",
+            "field": "pledges_per_10k",
             "type": "quantitative",
-            "title": "Blood Donations per 10000 Population",
+            "title": "Organ Donation Pledges per 10 000 Population",
             "axis": {
                 "tickCount": 5
             }
@@ -57,9 +56,9 @@
                 "title": "Median Household Income (RM)"
             },
             {
-                "field": "blood_donations_per_10k",
+                "field": "pledges_per_10k",
                 "type": "quantitative",
-                "title": "Blood Donations per 10000 Population",
+                "title": "Organ Donation Pledges per 10 000 Population",
                 "format": ".2f"
             }
         ]
@@ -74,7 +73,7 @@
                     "title": "Population Size",
                     "scale": {
                         "domain": [
-                            500000,
+                            0,
                             10000000
                         ],
                         "range": [
@@ -103,7 +102,7 @@
                 "align": "left",
                 "baseline": "middle",
                 "dx": {
-                    "expr": "datum.state == 'Pahang' ? -50 : (datum.state == 'W.P. Kuala Lumpur' ? -105 : (datum.state == 'Selangor' ? -60 : 10))"
+                    "expr": "datum.state == 'Pahang' ? -50 : (datum.state == 'W.P. Kuala Lumpur' ? -105 : (datum.state == 'Selangor' ? -60 : (datum.state == 'W.P. Putrajaya' ? -80 : 10)))"
                 }
             },
             "encoding": {

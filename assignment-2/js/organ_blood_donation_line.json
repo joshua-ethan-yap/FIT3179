@@ -1,0 +1,60 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": "container",
+    "height": 300,
+    "data": {
+      "url": "https://raw.githubusercontent.com/joshua-ethan-yap/FIT3179/refs/heads/main/assignment-2/data/combined_donations.csv"
+    },
+    "transform": [
+      {
+        "fold": ["donations", "pledges"],
+        "as": ["Category", "Value"]
+      },
+      {
+        "calculate": "datum.Category === 'donations' ? 'Blood Donation' : 'Organ Donation Pledge'",
+        "as": "DonationType"
+      }
+    ],
+    "mark": "bar",
+    "encoding": {
+      "x": {
+        "field": "year",
+        "type": "ordinal",
+        "title": "Year",
+        "axis": {
+          "labelAngle": -45
+        }
+      },
+      "y": {
+        "field": "Value",
+        "type": "quantitative",
+        "title": "Count",
+        "axis": {
+          "format": "s"
+        }
+      },
+      "color": {
+        "field": "DonationType",
+        "type": "nominal",
+        "scale": {
+          "domain": ["Blood Donation", "Organ Donation Pledge"], 
+          "range": ["#de2d26", "#a020f0"]
+        },
+        "title": "Donation Type"
+      },
+      "tooltip": [
+        {"field": "year", "type": "ordinal", "title": "Year"},
+        {"field": "DonationType", "type": "nominal", "title": "Donation Type"},
+        {"field": "Value", "type": "quantitative", "title": "Count", "format": ","}
+      ],
+      "xOffset": {
+        "field": "Category"
+      }
+    },
+    "config": {
+      "bar": {
+        "binSpacing": 2
+      }
+    }
+  }
+  

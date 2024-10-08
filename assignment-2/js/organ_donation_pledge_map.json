@@ -1,7 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Total Organ Donation Pledges by State in Malaysia in 2023",
-    "width": 725,
+    "width": "container",
     "height": 400,
     "projection": {
         "type": "equirectangular"
@@ -59,7 +58,10 @@
                             "#a50f15"
                         ]
                     },
-                    "title": ["Pledges per", "10k Population"]
+                    "title": [
+                        "Pledges per",
+                        "10k Population"
+                    ]
                 },
                 "tooltip": [
                     {
