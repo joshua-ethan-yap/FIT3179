@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "Median Household Income vs. Blood Donations per 10000 Population by State in 2022",
-    "width": 800,
+    "width": 515,
     "height": 600,
     "data": {
         "url": "https://raw.githubusercontent.com/joshua-ethan-yap/FIT3179/refs/heads/main/week10-homework/data/organ_pledges_household_income_2022.csv"
