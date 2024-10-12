@@ -1,0 +1,88 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": "container",
+    "height": 400,
+    "title": "Blood Donations in 2006 and 2023 Across States",
+    "data": {
+      "url": "https://raw.githubusercontent.com/joshua-ethan-yap/FIT3179/main/assignment-2/data/population_donations_income_by_state.csv"
+    },
+    "transform": [
+      {
+        "filter": {
+          "field": "year",
+          "oneOf": [2006, 2023]
+        }
+      }
+    ],
+    "encoding": {
+      "y": {
+        "field": "donations",
+        "type": "quantitative",
+        "title": "Blood Donations"
+      },
+      "x": {
+        "field": "state",
+        "type": "nominal",
+        "title": "State",
+        "axis": {
+          "labelAngle": 45,
+          "labelFontSize": 12
+        }
+      }
+    },
+    "layer": [
+      {
+        "mark": "line",
+        "encoding": {
+          "detail": {
+            "field": "state",
+            "type": "nominal"
+          },
+          "color": {
+            "value": "#c5c7c5"
+          }
+        }
+      },
+      {
+        "mark": {
+          "type": "point",
+          "filled": true,
+          "size": 100
+        },
+        "encoding": {
+          "color": {
+            "field": "year",
+            "type": "ordinal",
+            "scale": {
+              "domain": [2006, 2023],
+              "range": ["#fb6a4a", "#a50f15"]
+            },
+            "title": "Year"
+          },
+          "tooltip": [
+            {
+              "field": "state",
+              "type": "nominal",
+              "title": "State"
+            },
+            {
+              "field": "donations",
+              "type": "quantitative",
+              "title": "Blood Donations"
+            },
+            {
+              "field": "year",
+              "type": "quantitative",
+              "title": "Year"
+            }
+          ]
+        }
+      }
+    ],
+    "config": {
+      "view": {
+        "stroke": null
+      }
+    }
+  }
+  
