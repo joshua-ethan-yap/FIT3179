@@ -3,33 +3,26 @@
     "width": "container",
     "height": 600,
     "data": {
-        "url": "https://raw.githubusercontent.com/joshua-ethan-yap/FIT3179/refs/heads/main/assignment-2/data/organ_pledges_household_income_2022.csv"
+        "url": "https://raw.githubusercontent.com/joshua-ethan-yap/FIT3179/refs/heads/main/assignment-2/data/population_donations_income_by_state.csv"
     },
     "params": [
         {
-            "name": "population_range",
-            "value": 0,
-            "bind": {
-                "input": "range",
-                "min": 0,
-                "max": 7000000,
-                "step": 100000,
-                "name": "Filter by Population Size:"
-            }
+            "name": "selectedYear",
+            "value": 2022
         }
     ],
     "transform": [
         {
-            "calculate": "datum.total_pledges / datum.population * 10000",
-            "as": "pledges_per_10k"
+            "calculate": "datum.donations / datum.population * 10000",
+            "as": "donations_per_10k"
         },
         {
-            "filter": "datum.population >= population_range"
+          "filter": "datum.year == selectedYear"
         }
     ],
     "encoding": {
         "x": {
-            "field": "median_household_income",
+            "field": "income_median",
             "type": "quantitative",
             "title": "Median Household Income (RM)",
             "axis": {
@@ -37,9 +30,9 @@
             }
         },
         "y": {
-            "field": "pledges_per_10k",
+            "field": "donations_per_10k",
             "type": "quantitative",
-            "title": "Organ Donation Pledges per 10 000 Population",
+            "title": "Blood Donations per 10 000 Population",
             "axis": {
                 "tickCount": 5
             }
@@ -51,14 +44,14 @@
                 "title": "State"
             },
             {
-                "field": "median_household_income",
+                "field": "income_median",
                 "type": "quantitative",
                 "title": "Median Household Income (RM)"
             },
             {
-                "field": "pledges_per_10k",
+                "field": "donations_per_10k",
                 "type": "quantitative",
-                "title": "Organ Donation Pledges per 10 000 Population",
+                "title": "Blood Donations per 10 000 Population",
                 "format": ".2f"
             }
         ]
