@@ -9,22 +9,42 @@
         {
             "name": "selectedYear",
             "value": 2022
+        },
+        {
+            "name": "incomeSelection",
+            "value": "income_median",
+            "bind": {
+                "input": "select",
+                "options": [
+                    "income_median",
+                    "income_mean"
+                ],
+                "labels": [
+                    "Median Income",
+                    "Mean Income"
+                ],
+                "name": "Select Income Type: "
+            }
         }
     ],
     "transform": [
+        {
+            "calculate": "incomeSelection == 'income_median' ? datum.income_median : datum.income_mean",
+            "as": "selected_income"
+        },
         {
             "calculate": "datum.donations / datum.population * 10000",
             "as": "donations_per_10k"
         },
         {
-          "filter": "datum.year == selectedYear"
+            "filter": "datum.year == selectedYear"
         }
     ],
     "encoding": {
         "x": {
-            "field": "income_median",
+            "field": "selected_income",
             "type": "quantitative",
-            "title": "Median Household Income (RM)",
+            "title": "Median/Mean Household Income (RM)",
             "axis": {
                 "tickCount": 5
             }
@@ -46,13 +66,18 @@
             {
                 "field": "income_median",
                 "type": "quantitative",
-                "title": "Median Household Income (RM)"
+                "title": "Median/Mean Household Income (RM)"
             },
             {
                 "field": "donations_per_10k",
                 "type": "quantitative",
                 "title": "Blood Donations per 10 000 Population",
                 "format": ".2f"
+            },
+            {
+                "field": "population",
+                "type": "quantitative",
+                "title": "Population (people)"
             }
         ]
     },
@@ -63,17 +88,24 @@
                 "size": {
                     "field": "population",
                     "type": "quantitative",
-                    "title": "Population Size",
+                    "title": "Population",
                     "scale": {
+                        "type": "threshold",
                         "domain": [
-                            0,
-                            10000000
+                            1000000,
+                            2000000,
+                            3000000,
+                            4000000,
+                            5000000
                         ],
                         "range": [
+                            50,
                             100,
-                            1000
-                        ],
-                        "zero": false
+                            250,
+                            400,
+                            600,
+                            900
+                        ]
                     },
                     "legend": {
                         "format": ".1s"
@@ -96,12 +128,17 @@
                 "baseline": "middle",
                 "dx": {
                     "expr": "datum.state == 'Pahang' ? -50 : (datum.state == 'W.P. Kuala Lumpur' ? -105 : (datum.state == 'Selangor' ? -60 : (datum.state == 'W.P. Putrajaya' ? -80 : 10)))"
-                }
+                },
+                "dy": -7
             },
             "encoding": {
                 "text": {
                     "field": "state",
-                    "type": "nominal"
+                    "type": "nominal",
+                    "condition": {
+                        "test": "datum.state == 'Perak' || datum.state == 'Pahang' || datum.state == 'Kedah' || datum.state == 'Negeri Sembilan' || datum.state == 'Terengganu' || datum.state == 'Kelantan'",
+                        "value": ""
+                    }
                 },
                 "color": {
                     "value": "black"

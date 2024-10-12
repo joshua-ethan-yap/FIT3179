@@ -1,0 +1,112 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": "container",
+    "height": 400,
+    "data": {
+        "url": "https://raw.githubusercontent.com/joshua-ethan-yap/FIT3179/refs/heads/main/assignment-2/data/blood_donations_by_type.csv"
+    },
+    "params": [
+        {
+            "name": "stateSelection",
+            "value": "All States",
+            "bind": {
+                "input": "select",
+                "options": [
+                    "All States",
+                    "Johor",
+                    "Kedah",
+                    "Kelantan",
+                    "Melaka",
+                    "Negeri Sembilan",
+                    "Pahang",
+                    "Perak",
+                    "Pulau Pinang",
+                    "Sabah",
+                    "Sarawak",
+                    "Selangor",
+                    "Terengganu",
+                    "W.P. Kuala Lumpur"
+                ],
+                "labels": [
+                    "Show All",
+                    "Johor",
+                    "Kedah",
+                    "Kelantan",
+                    "Melaka",
+                    "Negeri Sembilan",
+                    "Pahang",
+                    "Perak",
+                    "Pulau Pinang",
+                    "Sabah",
+                    "Sarawak",
+                    "Selangor",
+                    "Terengganu",
+                    "W.P. Kuala Lumpur"
+                ],
+                "name": "Select State: "
+            }
+        }
+    ],
+    "mark": {
+        "type": "line",
+        "point": true
+    },
+    "encoding": {
+        "x": {
+            "field": "year",
+            "type": "temporal",
+            "axis": {
+                "title": "Year"
+            }
+        },
+        "y": {
+            "field": "donations",
+            "type": "quantitative",
+            "axis": {
+                "title": "Number of Blood Donations"
+            }
+        },
+        "color": {
+            "field": "blood_type",
+            "type": "nominal",
+            "legend": {
+                "title": "Blood Type"
+            },
+            "scale": {
+                "domain": [
+                    "A",
+                    "B",
+                    "AB",
+                    "O"
+                ],
+                "range": ["#0072b2", "#e69f00", "#cc79a7", "#d55e00"]
+            }
+        },
+        "tooltip": [
+            {
+                "field": "year",
+                "type": "temporal",
+                "title": "Year",
+                "timeUnit": "year"
+            },
+            {
+                "field": "blood_type",
+                "type": "nominal",
+                "title": "Blood Type"
+            },
+            {
+                "field": "donations",
+                "type": "quantitative",
+                "title": "Donations"
+            }
+        ]
+    },
+    "transform": [
+        {
+            "filter": "stateSelection == null || datum.state == stateSelection"
+        }
+    ],
+    "view": {
+        "stroke": null
+    }
+}
