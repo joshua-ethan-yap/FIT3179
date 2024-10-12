@@ -39,14 +39,11 @@
         </p>
         <h3 class="text-center">Total Organ Donation Pledges per 10 000 Population by State in Malaysia in 2022</h3>
         <div id="vis1" style="width: 100%; height: auto; margin: auto"></div>
-        <script type="text/javascript">
-          var specVis1 = "./js/organ_donation_pledge_map.json";
-          vegaEmbed('#vis1', specVis1, opt = {
-            renderer: "svg",
-            actions: false
-          }).then(function (result) {
-          }).catch(console.error);
-        </script>
+        <div>
+          <p><b>Year:</b></p>
+          <input type="range" id="map-year-slider" min="2010" max="2023" step="1" value="2022">
+          <span id="map-year-slider-value">2022</span>
+        </div>
         <!-- <figure class="figure-caption text-right">
           Source: <a href="https://example.com/donation-data">Organ Donation Data Malaysia 2023</a>
         </figure> -->
@@ -63,17 +60,9 @@
           state in 2022</h3>
         <figure class="figure">
           <div id="vis2" style="width: 100%; height: auto; margin: auto"></div>
-          <script type="text/javascript">
-            var specVis2 = "./js/organ_pledges_household_income_bubble_plot.json";
-            vegaEmbed('#vis2', specVis2, opt = {
-              renderer: "svg",
-              actions: false
-            }).then(function (result) {
-            }).catch(console.error);
-          </script>
         </figure>
         <p>
-          Notably, W.P. Kuala Lumpur and W.P. Putrajaya exhibit high pledge rates despite their smaller populations,
+          W.P. Kuala Lumpur and W.P. Putrajaya exhibit high pledge rates despite their smaller populations,
           suggesting a strong culture of organ donation in these urban centers. Selangor, the most populous state, shows
           both a high pledge rate and higher household income, which may suggest a link between income levels and organ
           donation activity. In contrast, states with lower incomes, such as Kelantan and Sabah, tend to have lower
@@ -90,20 +79,13 @@
         <p>
           This visualization highlights the trends in blood donations and organ donation pledges in Malaysia from 2010
           to 2023. Blood donations steadily increased until 2019, surpassing 1 million annually in 2015. However,
-          both dipped sharply during the COVID-19 pandemic, with blood donations hitting a decade low in 2021, and organ donation pledges
+          both dipped sharply during the COVID-19 pandemic, with blood donations hitting a decade low in 2021, and organ
+          donation pledges
           bottoming out in 2020.
         </p>
         <h3 class="text-center">Blood Donations and Organ Donation Pledges in Malaysia (2010-2023)</h3>
         <figure class="figure">
           <div id="vis3" style="width: 100%; height: auto; margin: auto"></div>
-          <script type="text/javascript">
-            var specVis3 = "./js/organ_blood_donation_line.json";
-            vegaEmbed('#vis3', specVis3, opt = {
-              renderer: "svg",
-              actions: false
-            }).then(function (result) {
-            }).catch(console.error);
-          </script>
         </figure>
         <p>
           In 2022, organ pledges surged to a record-breaking 51 772, reflecting renewed interest post-pandemic. The
@@ -117,6 +99,41 @@
       </div>
     </div>
   </div>
+
+  <script type="text/javascript">
+    var specVis1 = "./js/organ_donation_pledge_map.json";
+    var specVis2 = "./js/organ_pledges_household_income_bubble_plot.json";
+    var specVis3 = "./js/organ_blood_donation_line.json";
+
+    vegaEmbed("#vis1", specVis1, opt = { 
+      render: "svg", 
+      "actions": false
+    }).then((result) => {
+      const view = result.view;
+
+      const mapYearSlider = document.getElementById("map-year-slider");
+      const mapYearSliderValue = document.getElementById("map-year-slider-value");
+
+      mapYearSlider.addEventListener("input", function () {
+        const yearSelection = +this.value;
+        mapYearSliderValue.textContent = yearSelection;
+        view.signal("selectedYear", yearSelection).runAsync();
+      });
+    }).catch(console.error);
+
+    vegaEmbed('#vis2', specVis2, opt = {
+      renderer: "svg",
+      actions: false
+    }).then(function (result) {
+    }).catch(console.error);
+
+    vegaEmbed('#vis3', specVis3, opt = {
+      renderer: "svg",
+      actions: false
+    }).then(function (result) {
+    }).catch(console.error);
+
+  </script>
 </body>
 
 </html>
