@@ -1,1009 +1,1009 @@
 state,year,blood_type,donations
-Johor,2006,a,2132
-Johor,2006,ab,537
-Johor,2006,b,2236
-Johor,2006,o,3582
-Johor,2007,a,1529
-Johor,2007,ab,436
-Johor,2007,b,1740
-Johor,2007,o,2757
-Johor,2008,a,2257
-Johor,2008,ab,596
-Johor,2008,b,2523
-Johor,2008,o,3960
-Johor,2009,a,6382
-Johor,2009,ab,1552
-Johor,2009,b,6873
-Johor,2009,o,10895
-Johor,2010,a,7890
-Johor,2010,ab,2110
-Johor,2010,b,8822
-Johor,2010,o,13713
-Johor,2011,a,8094
-Johor,2011,ab,1733
-Johor,2011,b,8978
-Johor,2011,o,14007
-Johor,2012,a,8642
-Johor,2012,ab,1795
-Johor,2012,b,9228
-Johor,2012,o,14515
-Johor,2013,a,8672
-Johor,2013,ab,1822
-Johor,2013,b,9362
-Johor,2013,o,14514
-Johor,2014,a,8944
-Johor,2014,ab,2152
-Johor,2014,b,9686
-Johor,2014,o,15038
-Johor,2015,a,9008
-Johor,2015,ab,1989
-Johor,2015,b,10031
-Johor,2015,o,15884
-Johor,2016,a,7585
-Johor,2016,ab,1740
-Johor,2016,b,8081
-Johor,2016,o,13195
-Johor,2017,a,8521
-Johor,2017,ab,1797
-Johor,2017,b,9201
-Johor,2017,o,15029
-Johor,2018,a,8969
-Johor,2018,ab,1968
-Johor,2018,b,9846
-Johor,2018,o,15901
-Johor,2019,a,10277
-Johor,2019,ab,2128
-Johor,2019,b,11043
-Johor,2019,o,17813
-Johor,2020,a,9924
-Johor,2020,ab,2093
-Johor,2020,b,10996
-Johor,2020,o,17692
-Johor,2021,a,9745
-Johor,2021,ab,2162
-Johor,2021,b,10870
-Johor,2021,o,17632
-Johor,2022,a,10550
-Johor,2022,ab,2145
-Johor,2022,b,11569
-Johor,2022,o,18568
-Johor,2023,a,10621
-Johor,2023,ab,2296
-Johor,2023,b,11664
-Johor,2023,o,19124
-Kedah,2006,a,7687
-Kedah,2006,ab,2268
-Kedah,2006,b,8433
-Kedah,2006,o,11668
-Kedah,2007,a,6859
-Kedah,2007,ab,2008
-Kedah,2007,b,7787
-Kedah,2007,o,10472
-Kedah,2008,a,10695
-Kedah,2008,ab,3064
-Kedah,2008,b,12130
-Kedah,2008,o,16850
-Kedah,2009,a,11233
-Kedah,2009,ab,3118
-Kedah,2009,b,12816
-Kedah,2009,o,17695
-Kedah,2010,a,11936
-Kedah,2010,ab,3323
-Kedah,2010,b,13263
-Kedah,2010,o,18779
-Kedah,2011,a,13559
-Kedah,2011,ab,3729
-Kedah,2011,b,14896
-Kedah,2011,o,21130
-Kedah,2012,a,13610
-Kedah,2012,ab,3783
-Kedah,2012,b,15184
-Kedah,2012,o,21087
-Kedah,2013,a,13997
-Kedah,2013,ab,3829
-Kedah,2013,b,15557
-Kedah,2013,o,21606
-Kedah,2014,a,14475
-Kedah,2014,ab,4006
-Kedah,2014,b,16235
-Kedah,2014,o,22298
-Kedah,2015,a,15103
-Kedah,2015,ab,4166
-Kedah,2015,b,16991
-Kedah,2015,o,23628
-Kedah,2016,a,14555
-Kedah,2016,ab,4092
-Kedah,2016,b,16528
-Kedah,2016,o,23575
-Kedah,2017,a,15328
-Kedah,2017,ab,4376
-Kedah,2017,b,17383
-Kedah,2017,o,24299
-Kedah,2018,a,15399
-Kedah,2018,ab,4305
-Kedah,2018,b,17389
-Kedah,2018,o,24776
-Kedah,2019,a,10539
-Kedah,2019,ab,2869
-Kedah,2019,b,11979
-Kedah,2019,o,17119
-Kedah,2020,a,4647
-Kedah,2020,ab,1272
-Kedah,2020,b,5286
-Kedah,2020,o,7671
-Kedah,2021,a,4852
-Kedah,2021,ab,1234
-Kedah,2021,b,5692
-Kedah,2021,o,8168
-Kedah,2022,a,5211
-Kedah,2022,ab,1327
-Kedah,2022,b,5944
-Kedah,2022,o,8646
-Kedah,2023,a,5420
-Kedah,2023,ab,1345
-Kedah,2023,b,6044
-Kedah,2023,o,8754
-Kelantan,2006,a,1266
-Kelantan,2006,ab,371
-Kelantan,2006,b,1453
-Kelantan,2006,o,2238
-Kelantan,2007,a,2493
-Kelantan,2007,ab,646
-Kelantan,2007,b,2603
-Kelantan,2007,o,4044
-Kelantan,2008,a,2787
-Kelantan,2008,ab,818
-Kelantan,2008,b,3001
-Kelantan,2008,o,4702
-Kelantan,2009,a,3032
-Kelantan,2009,ab,757
-Kelantan,2009,b,3031
-Kelantan,2009,o,4700
-Kelantan,2010,a,3051
-Kelantan,2010,ab,930
-Kelantan,2010,b,3679
-Kelantan,2010,o,4947
-Kelantan,2011,a,2633
-Kelantan,2011,ab,787
-Kelantan,2011,b,3156
-Kelantan,2011,o,4340
-Kelantan,2012,a,2414
-Kelantan,2012,ab,682
-Kelantan,2012,b,2599
-Kelantan,2012,o,3356
-Kelantan,2013,a,2660
-Kelantan,2013,ab,706
-Kelantan,2013,b,2963
-Kelantan,2013,o,4022
-Kelantan,2014,a,2732
-Kelantan,2014,ab,749
-Kelantan,2014,b,3132
-Kelantan,2014,o,3891
-Kelantan,2015,a,4356
-Kelantan,2015,ab,1069
-Kelantan,2015,b,4179
-Kelantan,2015,o,5864
-Kelantan,2016,a,4045
-Kelantan,2016,ab,1012
-Kelantan,2016,b,4159
-Kelantan,2016,o,5895
-Kelantan,2017,a,11
-Kelantan,2017,ab,3
-Kelantan,2017,b,13
-Kelantan,2017,o,8
-Kelantan,2018,a,3888
-Kelantan,2018,ab,999
-Kelantan,2018,b,3981
-Kelantan,2018,o,5640
-Kelantan,2019,a,3067
-Kelantan,2019,ab,801
-Kelantan,2019,b,3046
-Kelantan,2019,o,4669
-Kelantan,2020,a,3401
-Kelantan,2020,ab,865
-Kelantan,2020,b,3364
-Kelantan,2020,o,5127
-Kelantan,2021,a,3144
-Kelantan,2021,ab,919
-Kelantan,2021,b,3210
-Kelantan,2021,o,4822
-Kelantan,2022,a,4042
-Kelantan,2022,ab,1010
-Kelantan,2022,b,3838
-Kelantan,2022,o,6169
-Kelantan,2023,a,4424
-Kelantan,2023,ab,1109
-Kelantan,2023,b,4544
-Kelantan,2023,o,6639
-Melaka,2006,a,1746
-Melaka,2006,ab,472
-Melaka,2006,b,1842
-Melaka,2006,o,2916
-Melaka,2007,a,6113
-Melaka,2007,ab,1620
-Melaka,2007,b,6420
-Melaka,2007,o,9925
-Melaka,2008,a,6573
-Melaka,2008,ab,1648
-Melaka,2008,b,7086
-Melaka,2008,o,10800
-Melaka,2009,a,6809
-Melaka,2009,ab,1740
-Melaka,2009,b,7161
-Melaka,2009,o,10943
-Melaka,2010,a,7036
-Melaka,2010,ab,1732
-Melaka,2010,b,7351
-Melaka,2010,o,11222
-Melaka,2011,a,6883
-Melaka,2011,ab,1795
-Melaka,2011,b,7399
-Melaka,2011,o,11455
-Melaka,2012,a,7076
-Melaka,2012,ab,1838
-Melaka,2012,b,7442
-Melaka,2012,o,11451
-Melaka,2013,a,7352
-Melaka,2013,ab,1920
-Melaka,2013,b,7858
-Melaka,2013,o,12026
-Melaka,2014,a,7113
-Melaka,2014,ab,1825
-Melaka,2014,b,7579
-Melaka,2014,o,11562
-Melaka,2015,a,7200
-Melaka,2015,ab,1883
-Melaka,2015,b,7643
-Melaka,2015,o,11813
-Melaka,2016,a,7744
-Melaka,2016,ab,1930
-Melaka,2016,b,7922
-Melaka,2016,o,12346
-Melaka,2017,a,7754
-Melaka,2017,ab,1922
-Melaka,2017,b,7814
-Melaka,2017,o,12743
-Melaka,2018,a,7678
-Melaka,2018,ab,1896
-Melaka,2018,b,7947
-Melaka,2018,o,12649
-Melaka,2019,a,7790
-Melaka,2019,ab,1835
-Melaka,2019,b,7790
-Melaka,2019,o,12818
-Melaka,2020,a,7072
-Melaka,2020,ab,1690
-Melaka,2020,b,7316
-Melaka,2020,o,11458
-Melaka,2021,a,7082
-Melaka,2021,ab,1788
-Melaka,2021,b,7471
-Melaka,2021,o,11615
-Melaka,2022,a,7676
-Melaka,2022,ab,1795
-Melaka,2022,b,8114
-Melaka,2022,o,12925
-Melaka,2023,a,7280
-Melaka,2023,ab,1755
-Melaka,2023,b,7532
-Melaka,2023,o,11877
-Negeri Sembilan,2006,a,971
-Negeri Sembilan,2006,ab,259
-Negeri Sembilan,2006,b,1021
-Negeri Sembilan,2006,o,1636
-Negeri Sembilan,2007,a,3300
-Negeri Sembilan,2007,ab,844
-Negeri Sembilan,2007,b,3624
-Negeri Sembilan,2007,o,5516
-Negeri Sembilan,2008,a,3416
-Negeri Sembilan,2008,ab,878
-Negeri Sembilan,2008,b,3786
-Negeri Sembilan,2008,o,5643
-Negeri Sembilan,2009,a,3269
-Negeri Sembilan,2009,ab,847
-Negeri Sembilan,2009,b,3559
-Negeri Sembilan,2009,o,5326
-Negeri Sembilan,2010,a,3491
-Negeri Sembilan,2010,ab,931
-Negeri Sembilan,2010,b,3833
-Negeri Sembilan,2010,o,5856
-Negeri Sembilan,2011,a,3678
-Negeri Sembilan,2011,ab,1012
-Negeri Sembilan,2011,b,3948
-Negeri Sembilan,2011,o,5860
-Negeri Sembilan,2012,a,3608
-Negeri Sembilan,2012,ab,955
-Negeri Sembilan,2012,b,3988
-Negeri Sembilan,2012,o,5748
-Negeri Sembilan,2013,a,4008
-Negeri Sembilan,2013,ab,1016
-Negeri Sembilan,2013,b,4284
-Negeri Sembilan,2013,o,6526
-Negeri Sembilan,2014,a,3765
-Negeri Sembilan,2014,ab,978
-Negeri Sembilan,2014,b,3928
-Negeri Sembilan,2014,o,6114
-Negeri Sembilan,2015,a,4276
-Negeri Sembilan,2015,ab,1116
-Negeri Sembilan,2015,b,4611
-Negeri Sembilan,2015,o,7008
-Negeri Sembilan,2016,a,4392
-Negeri Sembilan,2016,ab,1172
-Negeri Sembilan,2016,b,4923
-Negeri Sembilan,2016,o,7468
-Negeri Sembilan,2017,a,4160
-Negeri Sembilan,2017,ab,1115
-Negeri Sembilan,2017,b,4577
-Negeri Sembilan,2017,o,7259
-Negeri Sembilan,2018,a,4107
-Negeri Sembilan,2018,ab,1041
-Negeri Sembilan,2018,b,4676
-Negeri Sembilan,2018,o,7152
-Negeri Sembilan,2019,a,4463
-Negeri Sembilan,2019,ab,1082
-Negeri Sembilan,2019,b,4965
-Negeri Sembilan,2019,o,7796
-Negeri Sembilan,2020,a,3988
-Negeri Sembilan,2020,ab,983
-Negeri Sembilan,2020,b,4528
-Negeri Sembilan,2020,o,6899
-Negeri Sembilan,2021,a,3609
-Negeri Sembilan,2021,ab,858
-Negeri Sembilan,2021,b,4071
-Negeri Sembilan,2021,o,6397
-Negeri Sembilan,2022,a,3973
-Negeri Sembilan,2022,ab,770
-Negeri Sembilan,2022,b,4240
-Negeri Sembilan,2022,o,6934
-Negeri Sembilan,2023,a,4052
-Negeri Sembilan,2023,ab,857
-Negeri Sembilan,2023,b,4378
-Negeri Sembilan,2023,o,7130
-Pahang,2006,a,841
-Pahang,2006,ab,220
-Pahang,2006,b,904
-Pahang,2006,o,1293
-Pahang,2007,a,844
-Pahang,2007,ab,236
-Pahang,2007,b,887
-Pahang,2007,o,1270
-Pahang,2008,a,790
-Pahang,2008,ab,203
-Pahang,2008,b,917
-Pahang,2008,o,1230
-Pahang,2009,a,914
-Pahang,2009,ab,244
-Pahang,2009,b,953
-Pahang,2009,o,1303
-Pahang,2010,a,876
-Pahang,2010,ab,237
-Pahang,2010,b,932
-Pahang,2010,o,1277
-Pahang,2011,a,1950
-Pahang,2011,ab,470
-Pahang,2011,b,2082
-Pahang,2011,o,2956
-Pahang,2012,a,3180
-Pahang,2012,ab,871
-Pahang,2012,b,3481
-Pahang,2012,o,5055
-Pahang,2013,a,2891
-Pahang,2013,ab,812
-Pahang,2013,b,3195
-Pahang,2013,o,4592
-Pahang,2014,a,2836
-Pahang,2014,ab,780
-Pahang,2014,b,3265
-Pahang,2014,o,4669
-Pahang,2015,a,2937
-Pahang,2015,ab,827
-Pahang,2015,b,3265
-Pahang,2015,o,4648
-Pahang,2016,a,2707
-Pahang,2016,ab,808
-Pahang,2016,b,3116
-Pahang,2016,o,4364
-Pahang,2017,a,2506
-Pahang,2017,ab,676
-Pahang,2017,b,2625
-Pahang,2017,o,3745
-Pahang,2018,a,1799
-Pahang,2018,ab,466
-Pahang,2018,b,1940
-Pahang,2018,o,2890
-Pahang,2019,a,3872
-Pahang,2019,ab,1035
-Pahang,2019,b,4447
-Pahang,2019,o,6456
-Pahang,2020,a,5720
-Pahang,2020,ab,1379
-Pahang,2020,b,6270
-Pahang,2020,o,8786
-Pahang,2021,a,5767
-Pahang,2021,ab,1440
-Pahang,2021,b,6382
-Pahang,2021,o,9239
-Pahang,2022,a,6070
-Pahang,2022,ab,1459
-Pahang,2022,b,6612
-Pahang,2022,o,9708
-Pahang,2023,a,5801
-Pahang,2023,ab,1342
-Pahang,2023,b,6395
-Pahang,2023,o,9263
-Perak,2006,a,16
-Perak,2006,ab,2
-Perak,2006,b,13
-Perak,2006,o,22
-Perak,2007,a,20
-Perak,2007,ab,4
-Perak,2007,b,14
-Perak,2007,o,15
-Perak,2008,a,5963
-Perak,2008,ab,1595
-Perak,2008,b,6569
-Perak,2008,o,9587
-Perak,2009,a,6501
-Perak,2009,ab,1719
-Perak,2009,b,7187
-Perak,2009,o,10685
-Perak,2010,a,7058
-Perak,2010,ab,1837
-Perak,2010,b,7911
-Perak,2010,o,11534
-Perak,2011,a,8170
-Perak,2011,ab,2105
-Perak,2011,b,8938
-Perak,2011,o,12912
-Perak,2012,a,8572
-Perak,2012,ab,2161
-Perak,2012,b,9253
-Perak,2012,o,13618
-Perak,2013,a,9774
-Perak,2013,ab,2475
-Perak,2013,b,10639
-Perak,2013,o,15627
-Perak,2014,a,9645
-Perak,2014,ab,2570
-Perak,2014,b,10646
-Perak,2014,o,15594
-Perak,2015,a,10078
-Perak,2015,ab,2612
-Perak,2015,b,11008
-Perak,2015,o,16105
-Perak,2016,a,10415
-Perak,2016,ab,2769
-Perak,2016,b,11472
-Perak,2016,o,17192
-Perak,2017,a,10517
-Perak,2017,ab,2781
-Perak,2017,b,11532
-Perak,2017,o,17145
-Perak,2018,a,10748
-Perak,2018,ab,2861
-Perak,2018,b,12063
-Perak,2018,o,18390
-Perak,2019,a,10354
-Perak,2019,ab,2573
-Perak,2019,b,11159
-Perak,2019,o,16946
-Perak,2020,a,9919
-Perak,2020,ab,2558
-Perak,2020,b,10924
-Perak,2020,o,16685
-Perak,2021,a,10380
-Perak,2021,ab,2590
-Perak,2021,b,11602
-Perak,2021,o,18578
-Perak,2022,a,11525
-Perak,2022,ab,2883
-Perak,2022,b,12674
-Perak,2022,o,19414
-Perak,2023,a,11565
-Perak,2023,ab,2790
-Perak,2023,b,12962
-Perak,2023,o,19600
-Pulau Pinang,2006,a,0
-Pulau Pinang,2006,ab,0
-Pulau Pinang,2006,b,0
-Pulau Pinang,2006,o,0
-Pulau Pinang,2007,a,0
-Pulau Pinang,2007,ab,0
-Pulau Pinang,2007,b,0
-Pulau Pinang,2007,o,0
-Pulau Pinang,2008,a,0
-Pulau Pinang,2008,ab,0
-Pulau Pinang,2008,b,0
-Pulau Pinang,2008,o,0
-Pulau Pinang,2009,a,0
-Pulau Pinang,2009,ab,0
-Pulau Pinang,2009,b,0
-Pulau Pinang,2009,o,0
-Pulau Pinang,2010,a,0
-Pulau Pinang,2010,ab,0
-Pulau Pinang,2010,b,0
-Pulau Pinang,2010,o,0
-Pulau Pinang,2011,a,0
-Pulau Pinang,2011,ab,0
-Pulau Pinang,2011,b,0
-Pulau Pinang,2011,o,0
-Pulau Pinang,2012,a,0
-Pulau Pinang,2012,ab,0
-Pulau Pinang,2012,b,0
-Pulau Pinang,2012,o,0
-Pulau Pinang,2013,a,0
-Pulau Pinang,2013,ab,0
-Pulau Pinang,2013,b,0
-Pulau Pinang,2013,o,0
-Pulau Pinang,2014,a,6857
-Pulau Pinang,2014,ab,1734
-Pulau Pinang,2014,b,7309
-Pulau Pinang,2014,o,11169
-Pulau Pinang,2015,a,10421
-Pulau Pinang,2015,ab,2608
-Pulau Pinang,2015,b,10904
-Pulau Pinang,2015,o,16980
-Pulau Pinang,2016,a,10812
-Pulau Pinang,2016,ab,2808
-Pulau Pinang,2016,b,11591
-Pulau Pinang,2016,o,17304
-Pulau Pinang,2017,a,10521
-Pulau Pinang,2017,ab,2619
-Pulau Pinang,2017,b,11203
-Pulau Pinang,2017,o,17254
-Pulau Pinang,2018,a,11016
-Pulau Pinang,2018,ab,2806
-Pulau Pinang,2018,b,11842
-Pulau Pinang,2018,o,18105
-Pulau Pinang,2019,a,10885
-Pulau Pinang,2019,ab,2803
-Pulau Pinang,2019,b,11353
-Pulau Pinang,2019,o,18407
-Pulau Pinang,2020,a,9035
-Pulau Pinang,2020,ab,2202
-Pulau Pinang,2020,b,9807
-Pulau Pinang,2020,o,15468
-Pulau Pinang,2021,a,8717
-Pulau Pinang,2021,ab,2077
-Pulau Pinang,2021,b,9527
-Pulau Pinang,2021,o,14890
-Pulau Pinang,2022,a,9593
-Pulau Pinang,2022,ab,2344
-Pulau Pinang,2022,b,10333
-Pulau Pinang,2022,o,16150
-Pulau Pinang,2023,a,10235
-Pulau Pinang,2023,ab,2597
-Pulau Pinang,2023,b,11319
-Pulau Pinang,2023,o,17482
-Sabah,2006,a,633
-Sabah,2006,ab,130
-Sabah,2006,b,652
-Sabah,2006,o,1521
-Sabah,2007,a,2727
-Sabah,2007,ab,633
-Sabah,2007,b,3004
-Sabah,2007,o,6342
-Sabah,2008,a,4167
-Sabah,2008,ab,960
-Sabah,2008,b,4541
-Sabah,2008,o,9152
-Sabah,2009,a,4403
-Sabah,2009,ab,957
-Sabah,2009,b,4607
-Sabah,2009,o,9604
-Sabah,2010,a,4091
-Sabah,2010,ab,948
-Sabah,2010,b,4412
-Sabah,2010,o,9032
-Sabah,2011,a,4501
-Sabah,2011,ab,1079
-Sabah,2011,b,4794
-Sabah,2011,o,9879
-Sabah,2012,a,4818
-Sabah,2012,ab,1136
-Sabah,2012,b,5096
-Sabah,2012,o,10283
-Sabah,2013,a,4912
-Sabah,2013,ab,1090
-Sabah,2013,b,5159
-Sabah,2013,o,11165
-Sabah,2014,a,4923
-Sabah,2014,ab,1105
-Sabah,2014,b,5231
-Sabah,2014,o,11248
-Sabah,2015,a,5175
-Sabah,2015,ab,1170
-Sabah,2015,b,5511
-Sabah,2015,o,11925
-Sabah,2016,a,6512
-Sabah,2016,ab,1465
-Sabah,2016,b,6970
-Sabah,2016,o,14322
-Sabah,2017,a,7518
-Sabah,2017,ab,1634
-Sabah,2017,b,8221
-Sabah,2017,o,16394
-Sabah,2018,a,7628
-Sabah,2018,ab,1599
-Sabah,2018,b,8132
-Sabah,2018,o,16491
-Sabah,2019,a,8122
-Sabah,2019,ab,1686
-Sabah,2019,b,8677
-Sabah,2019,o,17671
-Sabah,2020,a,7576
-Sabah,2020,ab,1685
-Sabah,2020,b,8236
-Sabah,2020,o,16572
-Sabah,2021,a,6836
-Sabah,2021,ab,1472
-Sabah,2021,b,7538
-Sabah,2021,o,15364
-Sabah,2022,a,8036
-Sabah,2022,ab,1750
-Sabah,2022,b,8759
-Sabah,2022,o,16985
-Sabah,2023,a,9049
-Sabah,2023,ab,1996
-Sabah,2023,b,9715
-Sabah,2023,o,19064
-Sarawak,2006,a,35
-Sarawak,2006,ab,5
-Sarawak,2006,b,40
-Sarawak,2006,o,41
-Sarawak,2007,a,46
-Sarawak,2007,ab,8
-Sarawak,2007,b,52
-Sarawak,2007,o,74
-Sarawak,2008,a,2948
-Sarawak,2008,ab,831
-Sarawak,2008,b,3553
-Sarawak,2008,o,5200
-Sarawak,2009,a,3832
-Sarawak,2009,ab,1040
-Sarawak,2009,b,4459
-Sarawak,2009,o,6512
-Sarawak,2010,a,4033
-Sarawak,2010,ab,1147
-Sarawak,2010,b,4867
-Sarawak,2010,o,6751
-Sarawak,2011,a,3990
-Sarawak,2011,ab,1091
-Sarawak,2011,b,4841
-Sarawak,2011,o,6620
-Sarawak,2012,a,4160
-Sarawak,2012,ab,1159
-Sarawak,2012,b,4936
-Sarawak,2012,o,6817
-Sarawak,2013,a,4700
-Sarawak,2013,ab,1274
-Sarawak,2013,b,5684
-Sarawak,2013,o,7890
-Sarawak,2014,a,6856
-Sarawak,2014,ab,1969
-Sarawak,2014,b,8219
-Sarawak,2014,o,11687
-Sarawak,2015,a,9214
-Sarawak,2015,ab,2636
-Sarawak,2015,b,10586
-Sarawak,2015,o,15042
-Sarawak,2016,a,8822
-Sarawak,2016,ab,2556
-Sarawak,2016,b,10239
-Sarawak,2016,o,14348
-Sarawak,2017,a,9048
-Sarawak,2017,ab,2517
-Sarawak,2017,b,10420
-Sarawak,2017,o,14632
-Sarawak,2018,a,8959
-Sarawak,2018,ab,2659
-Sarawak,2018,b,10577
-Sarawak,2018,o,15095
-Sarawak,2019,a,9055
-Sarawak,2019,ab,2650
-Sarawak,2019,b,10829
-Sarawak,2019,o,15033
-Sarawak,2020,a,7923
-Sarawak,2020,ab,2277
-Sarawak,2020,b,9684
-Sarawak,2020,o,14076
-Sarawak,2021,a,8277
-Sarawak,2021,ab,2307
-Sarawak,2021,b,10286
-Sarawak,2021,o,14913
-Sarawak,2022,a,9565
-Sarawak,2022,ab,2526
-Sarawak,2022,b,11388
-Sarawak,2022,o,16648
-Sarawak,2023,a,9984
-Sarawak,2023,ab,2499
-Sarawak,2023,b,11922
-Sarawak,2023,o,17188
-Selangor,2006,a,941
-Selangor,2006,ab,258
-Selangor,2006,b,1118
-Selangor,2006,o,1658
-Selangor,2007,a,4497
-Selangor,2007,ab,1181
-Selangor,2007,b,5092
-Selangor,2007,o,7414
-Selangor,2008,a,4392
-Selangor,2008,ab,1198
-Selangor,2008,b,5015
-Selangor,2008,o,7164
-Selangor,2009,a,5418
-Selangor,2009,ab,1458
-Selangor,2009,b,5989
-Selangor,2009,o,8803
-Selangor,2010,a,6220
-Selangor,2010,ab,1596
-Selangor,2010,b,6839
-Selangor,2010,o,10113
-Selangor,2011,a,6441
-Selangor,2011,ab,1716
-Selangor,2011,b,7208
-Selangor,2011,o,10582
-Selangor,2012,a,6149
-Selangor,2012,ab,1573
-Selangor,2012,b,6812
-Selangor,2012,o,9849
-Selangor,2013,a,5646
-Selangor,2013,ab,1437
-Selangor,2013,b,6232
-Selangor,2013,o,9273
-Selangor,2014,a,6012
-Selangor,2014,ab,1571
-Selangor,2014,b,6580
-Selangor,2014,o,9939
-Selangor,2015,a,6183
-Selangor,2015,ab,1662
-Selangor,2015,b,7069
-Selangor,2015,o,10295
-Selangor,2016,a,6056
-Selangor,2016,ab,1680
-Selangor,2016,b,6900
-Selangor,2016,o,10349
-Selangor,2017,a,6398
-Selangor,2017,ab,1707
-Selangor,2017,b,7203
-Selangor,2017,o,10707
-Selangor,2018,a,6569
-Selangor,2018,ab,1711
-Selangor,2018,b,7329
-Selangor,2018,o,11323
-Selangor,2019,a,6842
-Selangor,2019,ab,1810
-Selangor,2019,b,7576
-Selangor,2019,o,11836
-Selangor,2020,a,7117
-Selangor,2020,ab,1824
-Selangor,2020,b,7794
-Selangor,2020,o,12497
-Selangor,2021,a,6265
-Selangor,2021,ab,1502
-Selangor,2021,b,6984
-Selangor,2021,o,11340
-Selangor,2022,a,7213
-Selangor,2022,ab,1665
-Selangor,2022,b,7843
-Selangor,2022,o,12590
-Selangor,2023,a,7473
-Selangor,2023,ab,1557
-Selangor,2023,b,8290
-Selangor,2023,o,12810
-Terengganu,2006,a,5177
-Terengganu,2006,ab,1465
-Terengganu,2006,b,5742
-Terengganu,2006,o,7957
-Terengganu,2007,a,4740
-Terengganu,2007,ab,1309
-Terengganu,2007,b,5444
-Terengganu,2007,o,7189
-Terengganu,2008,a,3494
-Terengganu,2008,ab,998
-Terengganu,2008,b,3972
-Terengganu,2008,o,5310
-Terengganu,2009,a,3602
-Terengganu,2009,ab,997
-Terengganu,2009,b,4164
-Terengganu,2009,o,5499
-Terengganu,2010,a,3635
-Terengganu,2010,ab,1003
-Terengganu,2010,b,4239
-Terengganu,2010,o,5733
-Terengganu,2011,a,3708
-Terengganu,2011,ab,990
-Terengganu,2011,b,4384
-Terengganu,2011,o,5721
-Terengganu,2012,a,3573
-Terengganu,2012,ab,1062
-Terengganu,2012,b,4234
-Terengganu,2012,o,5849
-Terengganu,2013,a,3527
-Terengganu,2013,ab,1064
-Terengganu,2013,b,3949
-Terengganu,2013,o,5375
-Terengganu,2014,a,3548
-Terengganu,2014,ab,963
-Terengganu,2014,b,4025
-Terengganu,2014,o,5394
-Terengganu,2015,a,3860
-Terengganu,2015,ab,1056
-Terengganu,2015,b,4411
-Terengganu,2015,o,5956
-Terengganu,2016,a,3844
-Terengganu,2016,ab,1085
-Terengganu,2016,b,4365
-Terengganu,2016,o,6014
-Terengganu,2017,a,3929
-Terengganu,2017,ab,1104
-Terengganu,2017,b,4491
-Terengganu,2017,o,6160
-Terengganu,2018,a,4329
-Terengganu,2018,ab,1266
-Terengganu,2018,b,5123
-Terengganu,2018,o,7154
-Terengganu,2019,a,3931
-Terengganu,2019,ab,1164
-Terengganu,2019,b,4631
-Terengganu,2019,o,6578
-Terengganu,2020,a,3769
-Terengganu,2020,ab,1083
-Terengganu,2020,b,4325
-Terengganu,2020,o,6184
-Terengganu,2021,a,3955
-Terengganu,2021,ab,1156
-Terengganu,2021,b,4512
-Terengganu,2021,o,6557
-Terengganu,2022,a,4466
-Terengganu,2022,ab,1251
-Terengganu,2022,b,5081
-Terengganu,2022,o,7428
-Terengganu,2023,a,4688
-Terengganu,2023,ab,1398
-Terengganu,2023,b,5379
-Terengganu,2023,o,7892
-W.P. Kuala Lumpur,2006,a,33593
-W.P. Kuala Lumpur,2006,ab,8776
-W.P. Kuala Lumpur,2006,b,36141
-W.P. Kuala Lumpur,2006,o,54960
-W.P. Kuala Lumpur,2007,a,36422
-W.P. Kuala Lumpur,2007,ab,9534
-W.P. Kuala Lumpur,2007,b,39715
-W.P. Kuala Lumpur,2007,o,59923
-W.P. Kuala Lumpur,2008,a,38874
-W.P. Kuala Lumpur,2008,ab,10170
-W.P. Kuala Lumpur,2008,b,42615
-W.P. Kuala Lumpur,2008,o,63742
-W.P. Kuala Lumpur,2009,a,40642
-W.P. Kuala Lumpur,2009,ab,10840
-W.P. Kuala Lumpur,2009,b,44314
-W.P. Kuala Lumpur,2009,o,66892
-W.P. Kuala Lumpur,2010,a,38070
-W.P. Kuala Lumpur,2010,ab,10212
-W.P. Kuala Lumpur,2010,b,41505
-W.P. Kuala Lumpur,2010,o,63152
-W.P. Kuala Lumpur,2011,a,40232
-W.P. Kuala Lumpur,2011,ab,10595
-W.P. Kuala Lumpur,2011,b,43511
-W.P. Kuala Lumpur,2011,o,66206
-W.P. Kuala Lumpur,2012,a,40809
-W.P. Kuala Lumpur,2012,ab,10650
-W.P. Kuala Lumpur,2012,b,43817
-W.P. Kuala Lumpur,2012,o,66742
-W.P. Kuala Lumpur,2013,a,41879
-W.P. Kuala Lumpur,2013,ab,10873
-W.P. Kuala Lumpur,2013,b,45314
-W.P. Kuala Lumpur,2013,o,68745
-W.P. Kuala Lumpur,2014,a,43628
-W.P. Kuala Lumpur,2014,ab,11455
-W.P. Kuala Lumpur,2014,b,47924
-W.P. Kuala Lumpur,2014,o,72244
-W.P. Kuala Lumpur,2015,a,46106
-W.P. Kuala Lumpur,2015,ab,11726
-W.P. Kuala Lumpur,2015,b,50439
-W.P. Kuala Lumpur,2015,o,75581
-W.P. Kuala Lumpur,2016,a,45038
-W.P. Kuala Lumpur,2016,ab,10830
-W.P. Kuala Lumpur,2016,b,49127
-W.P. Kuala Lumpur,2016,o,75039
-W.P. Kuala Lumpur,2017,a,45901
-W.P. Kuala Lumpur,2017,ab,10818
-W.P. Kuala Lumpur,2017,b,49103
-W.P. Kuala Lumpur,2017,o,74772
-W.P. Kuala Lumpur,2018,a,49010
-W.P. Kuala Lumpur,2018,ab,11660
-W.P. Kuala Lumpur,2018,b,52605
-W.P. Kuala Lumpur,2018,o,80740
-W.P. Kuala Lumpur,2019,a,50198
-W.P. Kuala Lumpur,2019,ab,11353
-W.P. Kuala Lumpur,2019,b,53934
-W.P. Kuala Lumpur,2019,o,83009
-W.P. Kuala Lumpur,2020,a,42859
-W.P. Kuala Lumpur,2020,ab,9497
-W.P. Kuala Lumpur,2020,b,45795
-W.P. Kuala Lumpur,2020,o,71779
-W.P. Kuala Lumpur,2021,a,43322
-W.P. Kuala Lumpur,2021,ab,9262
-W.P. Kuala Lumpur,2021,b,47709
-W.P. Kuala Lumpur,2021,o,73662
-W.P. Kuala Lumpur,2022,a,50271
-W.P. Kuala Lumpur,2022,ab,10614
-W.P. Kuala Lumpur,2022,b,54975
-W.P. Kuala Lumpur,2022,o,86536
-W.P. Kuala Lumpur,2023,a,51695
-W.P. Kuala Lumpur,2023,ab,10513
-W.P. Kuala Lumpur,2023,b,56008
-W.P. Kuala Lumpur,2023,o,88057
-All States,2006,a,55038
-All States,2006,ab,14763
-All States,2006,b,59595
-All States,2006,o,89492
-All States,2007,a,69590
-All States,2007,ab,18459
-All States,2007,b,76382
-All States,2007,o,114941
-All States,2008,a,86356
-All States,2008,ab,22959
-All States,2008,b,95708
-All States,2008,o,143340
-All States,2009,a,96037
-All States,2009,ab,25269
-All States,2009,b,105113
-All States,2009,o,158857
-All States,2010,a,97387
-All States,2010,ab,26006
-All States,2010,b,107653
-All States,2010,o,162109
-All States,2011,a,103839
-All States,2011,ab,27102
-All States,2011,b,114135
-All States,2011,o,171668
-All States,2012,a,106611
-All States,2012,ab,27665
-All States,2012,b,116070
-All States,2012,o,174370
-All States,2013,a,110018
-All States,2013,ab,28318
-All States,2013,b,120196
-All States,2013,o,181361
-All States,2014,a,121334
-All States,2014,ab,31857
-All States,2014,b,133759
-All States,2014,o,200847
-All States,2015,a,133917
-All States,2015,ab,34520
-All States,2015,b,146648
-All States,2015,o,220729
-All States,2016,a,132527
-All States,2016,ab,33947
-All States,2016,b,145393
-All States,2016,o,221411
-All States,2017,a,132112
-All States,2017,ab,33069
-All States,2017,b,143786
-All States,2017,o,220147
-All States,2018,a,140099
-All States,2018,ab,35237
-All States,2018,b,153450
-All States,2018,o,236306
-All States,2019,a,139395
-All States,2019,ab,33789
-All States,2019,b,151429
-All States,2019,o,236151
-All States,2020,a,122950
-All States,2020,ab,29408
-All States,2020,b,134325
-All States,2020,o,210894
-All States,2021,a,121951
-All States,2021,ab,28767
-All States,2021,b,135854
-All States,2021,o,213177
-All States,2022,a,138191
-All States,2022,ab,31539
-All States,2022,b,151370
-All States,2022,o,238701
-All States,2023,a,142287
-All States,2023,ab,32054
-All States,2023,b,156152
-All States,2023,o,244880
+Johor,2006,A,2132
+Johor,2006,AB,537
+Johor,2006,B,2236
+Johor,2006,O,3582
+Johor,2007,A,1529
+Johor,2007,AB,436
+Johor,2007,B,1740
+Johor,2007,O,2757
+Johor,2008,A,2257
+Johor,2008,AB,596
+Johor,2008,B,2523
+Johor,2008,O,3960
+Johor,2009,A,6382
+Johor,2009,AB,1552
+Johor,2009,B,6873
+Johor,2009,O,10895
+Johor,2010,A,7890
+Johor,2010,AB,2110
+Johor,2010,B,8822
+Johor,2010,O,13713
+Johor,2011,A,8094
+Johor,2011,AB,1733
+Johor,2011,B,8978
+Johor,2011,O,14007
+Johor,2012,A,8642
+Johor,2012,AB,1795
+Johor,2012,B,9228
+Johor,2012,O,14515
+Johor,2013,A,8672
+Johor,2013,AB,1822
+Johor,2013,B,9362
+Johor,2013,O,14514
+Johor,2014,A,8944
+Johor,2014,AB,2152
+Johor,2014,B,9686
+Johor,2014,O,15038
+Johor,2015,A,9008
+Johor,2015,AB,1989
+Johor,2015,B,10031
+Johor,2015,O,15884
+Johor,2016,A,7585
+Johor,2016,AB,1740
+Johor,2016,B,8081
+Johor,2016,O,13195
+Johor,2017,A,8521
+Johor,2017,AB,1797
+Johor,2017,B,9201
+Johor,2017,O,15029
+Johor,2018,A,8969
+Johor,2018,AB,1968
+Johor,2018,B,9846
+Johor,2018,O,15901
+Johor,2019,A,10277
+Johor,2019,AB,2128
+Johor,2019,B,11043
+Johor,2019,O,17813
+Johor,2020,A,9924
+Johor,2020,AB,2093
+Johor,2020,B,10996
+Johor,2020,O,17692
+Johor,2021,A,9745
+Johor,2021,AB,2162
+Johor,2021,B,10870
+Johor,2021,O,17632
+Johor,2022,A,10550
+Johor,2022,AB,2145
+Johor,2022,B,11569
+Johor,2022,O,18568
+Johor,2023,A,10621
+Johor,2023,AB,2296
+Johor,2023,B,11664
+Johor,2023,O,19124
+Kedah,2006,A,7687
+Kedah,2006,AB,2268
+Kedah,2006,B,8433
+Kedah,2006,O,11668
+Kedah,2007,A,6859
+Kedah,2007,AB,2008
+Kedah,2007,B,7787
+Kedah,2007,O,10472
+Kedah,2008,A,10695
+Kedah,2008,AB,3064
+Kedah,2008,B,12130
+Kedah,2008,O,16850
+Kedah,2009,A,11233
+Kedah,2009,AB,3118
+Kedah,2009,B,12816
+Kedah,2009,O,17695
+Kedah,2010,A,11936
+Kedah,2010,AB,3323
+Kedah,2010,B,13263
+Kedah,2010,O,18779
+Kedah,2011,A,13559
+Kedah,2011,AB,3729
+Kedah,2011,B,14896
+Kedah,2011,O,21130
+Kedah,2012,A,13610
+Kedah,2012,AB,3783
+Kedah,2012,B,15184
+Kedah,2012,O,21087
+Kedah,2013,A,13997
+Kedah,2013,AB,3829
+Kedah,2013,B,15557
+Kedah,2013,O,21606
+Kedah,2014,A,14475
+Kedah,2014,AB,4006
+Kedah,2014,B,16235
+Kedah,2014,O,22298
+Kedah,2015,A,15103
+Kedah,2015,AB,4166
+Kedah,2015,B,16991
+Kedah,2015,O,23628
+Kedah,2016,A,14555
+Kedah,2016,AB,4092
+Kedah,2016,B,16528
+Kedah,2016,O,23575
+Kedah,2017,A,15328
+Kedah,2017,AB,4376
+Kedah,2017,B,17383
+Kedah,2017,O,24299
+Kedah,2018,A,15399
+Kedah,2018,AB,4305
+Kedah,2018,B,17389
+Kedah,2018,O,24776
+Kedah,2019,A,10539
+Kedah,2019,AB,2869
+Kedah,2019,B,11979
+Kedah,2019,O,17119
+Kedah,2020,A,4647
+Kedah,2020,AB,1272
+Kedah,2020,B,5286
+Kedah,2020,O,7671
+Kedah,2021,A,4852
+Kedah,2021,AB,1234
+Kedah,2021,B,5692
+Kedah,2021,O,8168
+Kedah,2022,A,5211
+Kedah,2022,AB,1327
+Kedah,2022,B,5944
+Kedah,2022,O,8646
+Kedah,2023,A,5420
+Kedah,2023,AB,1345
+Kedah,2023,B,6044
+Kedah,2023,O,8754
+Kelantan,2006,A,1266
+Kelantan,2006,AB,371
+Kelantan,2006,B,1453
+Kelantan,2006,O,2238
+Kelantan,2007,A,2493
+Kelantan,2007,AB,646
+Kelantan,2007,B,2603
+Kelantan,2007,O,4044
+Kelantan,2008,A,2787
+Kelantan,2008,AB,818
+Kelantan,2008,B,3001
+Kelantan,2008,O,4702
+Kelantan,2009,A,3032
+Kelantan,2009,AB,757
+Kelantan,2009,B,3031
+Kelantan,2009,O,4700
+Kelantan,2010,A,3051
+Kelantan,2010,AB,930
+Kelantan,2010,B,3679
+Kelantan,2010,O,4947
+Kelantan,2011,A,2633
+Kelantan,2011,AB,787
+Kelantan,2011,B,3156
+Kelantan,2011,O,4340
+Kelantan,2012,A,2414
+Kelantan,2012,AB,682
+Kelantan,2012,B,2599
+Kelantan,2012,O,3356
+Kelantan,2013,A,2660
+Kelantan,2013,AB,706
+Kelantan,2013,B,2963
+Kelantan,2013,O,4022
+Kelantan,2014,A,2732
+Kelantan,2014,AB,749
+Kelantan,2014,B,3132
+Kelantan,2014,O,3891
+Kelantan,2015,A,4356
+Kelantan,2015,AB,1069
+Kelantan,2015,B,4179
+Kelantan,2015,O,5864
+Kelantan,2016,A,4045
+Kelantan,2016,AB,1012
+Kelantan,2016,B,4159
+Kelantan,2016,O,5895
+Kelantan,2017,A,11
+Kelantan,2017,AB,3
+Kelantan,2017,B,13
+Kelantan,2017,O,8
+Kelantan,2018,A,3888
+Kelantan,2018,AB,999
+Kelantan,2018,B,3981
+Kelantan,2018,O,5640
+Kelantan,2019,A,3067
+Kelantan,2019,AB,801
+Kelantan,2019,B,3046
+Kelantan,2019,O,4669
+Kelantan,2020,A,3401
+Kelantan,2020,AB,865
+Kelantan,2020,B,3364
+Kelantan,2020,O,5127
+Kelantan,2021,A,3144
+Kelantan,2021,AB,919
+Kelantan,2021,B,3210
+Kelantan,2021,O,4822
+Kelantan,2022,A,4042
+Kelantan,2022,AB,1010
+Kelantan,2022,B,3838
+Kelantan,2022,O,6169
+Kelantan,2023,A,4424
+Kelantan,2023,AB,1109
+Kelantan,2023,B,4544
+Kelantan,2023,O,6639
+Melaka,2006,A,1746
+Melaka,2006,AB,472
+Melaka,2006,B,1842
+Melaka,2006,O,2916
+Melaka,2007,A,6113
+Melaka,2007,AB,1620
+Melaka,2007,B,6420
+Melaka,2007,O,9925
+Melaka,2008,A,6573
+Melaka,2008,AB,1648
+Melaka,2008,B,7086
+Melaka,2008,O,10800
+Melaka,2009,A,6809
+Melaka,2009,AB,1740
+Melaka,2009,B,7161
+Melaka,2009,O,10943
+Melaka,2010,A,7036
+Melaka,2010,AB,1732
+Melaka,2010,B,7351
+Melaka,2010,O,11222
+Melaka,2011,A,6883
+Melaka,2011,AB,1795
+Melaka,2011,B,7399
+Melaka,2011,O,11455
+Melaka,2012,A,7076
+Melaka,2012,AB,1838
+Melaka,2012,B,7442
+Melaka,2012,O,11451
+Melaka,2013,A,7352
+Melaka,2013,AB,1920
+Melaka,2013,B,7858
+Melaka,2013,O,12026
+Melaka,2014,A,7113
+Melaka,2014,AB,1825
+Melaka,2014,B,7579
+Melaka,2014,O,11562
+Melaka,2015,A,7200
+Melaka,2015,AB,1883
+Melaka,2015,B,7643
+Melaka,2015,O,11813
+Melaka,2016,A,7744
+Melaka,2016,AB,1930
+Melaka,2016,B,7922
+Melaka,2016,O,12346
+Melaka,2017,A,7754
+Melaka,2017,AB,1922
+Melaka,2017,B,7814
+Melaka,2017,O,12743
+Melaka,2018,A,7678
+Melaka,2018,AB,1896
+Melaka,2018,B,7947
+Melaka,2018,O,12649
+Melaka,2019,A,7790
+Melaka,2019,AB,1835
+Melaka,2019,B,7790
+Melaka,2019,O,12818
+Melaka,2020,A,7072
+Melaka,2020,AB,1690
+Melaka,2020,B,7316
+Melaka,2020,O,11458
+Melaka,2021,A,7082
+Melaka,2021,AB,1788
+Melaka,2021,B,7471
+Melaka,2021,O,11615
+Melaka,2022,A,7676
+Melaka,2022,AB,1795
+Melaka,2022,B,8114
+Melaka,2022,O,12925
+Melaka,2023,A,7280
+Melaka,2023,AB,1755
+Melaka,2023,B,7532
+Melaka,2023,O,11877
+Negeri Sembilan,2006,A,971
+Negeri Sembilan,2006,AB,259
+Negeri Sembilan,2006,B,1021
+Negeri Sembilan,2006,O,1636
+Negeri Sembilan,2007,A,3300
+Negeri Sembilan,2007,AB,844
+Negeri Sembilan,2007,B,3624
+Negeri Sembilan,2007,O,5516
+Negeri Sembilan,2008,A,3416
+Negeri Sembilan,2008,AB,878
+Negeri Sembilan,2008,B,3786
+Negeri Sembilan,2008,O,5643
+Negeri Sembilan,2009,A,3269
+Negeri Sembilan,2009,AB,847
+Negeri Sembilan,2009,B,3559
+Negeri Sembilan,2009,O,5326
+Negeri Sembilan,2010,A,3491
+Negeri Sembilan,2010,AB,931
+Negeri Sembilan,2010,B,3833
+Negeri Sembilan,2010,O,5856
+Negeri Sembilan,2011,A,3678
+Negeri Sembilan,2011,AB,1012
+Negeri Sembilan,2011,B,3948
+Negeri Sembilan,2011,O,5860
+Negeri Sembilan,2012,A,3608
+Negeri Sembilan,2012,AB,955
+Negeri Sembilan,2012,B,3988
+Negeri Sembilan,2012,O,5748
+Negeri Sembilan,2013,A,4008
+Negeri Sembilan,2013,AB,1016
+Negeri Sembilan,2013,B,4284
+Negeri Sembilan,2013,O,6526
+Negeri Sembilan,2014,A,3765
+Negeri Sembilan,2014,AB,978
+Negeri Sembilan,2014,B,3928
+Negeri Sembilan,2014,O,6114
+Negeri Sembilan,2015,A,4276
+Negeri Sembilan,2015,AB,1116
+Negeri Sembilan,2015,B,4611
+Negeri Sembilan,2015,O,7008
+Negeri Sembilan,2016,A,4392
+Negeri Sembilan,2016,AB,1172
+Negeri Sembilan,2016,B,4923
+Negeri Sembilan,2016,O,7468
+Negeri Sembilan,2017,A,4160
+Negeri Sembilan,2017,AB,1115
+Negeri Sembilan,2017,B,4577
+Negeri Sembilan,2017,O,7259
+Negeri Sembilan,2018,A,4107
+Negeri Sembilan,2018,AB,1041
+Negeri Sembilan,2018,B,4676
+Negeri Sembilan,2018,O,7152
+Negeri Sembilan,2019,A,4463
+Negeri Sembilan,2019,AB,1082
+Negeri Sembilan,2019,B,4965
+Negeri Sembilan,2019,O,7796
+Negeri Sembilan,2020,A,3988
+Negeri Sembilan,2020,AB,983
+Negeri Sembilan,2020,B,4528
+Negeri Sembilan,2020,O,6899
+Negeri Sembilan,2021,A,3609
+Negeri Sembilan,2021,AB,858
+Negeri Sembilan,2021,B,4071
+Negeri Sembilan,2021,O,6397
+Negeri Sembilan,2022,A,3973
+Negeri Sembilan,2022,AB,770
+Negeri Sembilan,2022,B,4240
+Negeri Sembilan,2022,O,6934
+Negeri Sembilan,2023,A,4052
+Negeri Sembilan,2023,AB,857
+Negeri Sembilan,2023,B,4378
+Negeri Sembilan,2023,O,7130
+Pahang,2006,A,841
+Pahang,2006,AB,220
+Pahang,2006,B,904
+Pahang,2006,O,1293
+Pahang,2007,A,844
+Pahang,2007,AB,236
+Pahang,2007,B,887
+Pahang,2007,O,1270
+Pahang,2008,A,790
+Pahang,2008,AB,203
+Pahang,2008,B,917
+Pahang,2008,O,1230
+Pahang,2009,A,914
+Pahang,2009,AB,244
+Pahang,2009,B,953
+Pahang,2009,O,1303
+Pahang,2010,A,876
+Pahang,2010,AB,237
+Pahang,2010,B,932
+Pahang,2010,O,1277
+Pahang,2011,A,1950
+Pahang,2011,AB,470
+Pahang,2011,B,2082
+Pahang,2011,O,2956
+Pahang,2012,A,3180
+Pahang,2012,AB,871
+Pahang,2012,B,3481
+Pahang,2012,O,5055
+Pahang,2013,A,2891
+Pahang,2013,AB,812
+Pahang,2013,B,3195
+Pahang,2013,O,4592
+Pahang,2014,A,2836
+Pahang,2014,AB,780
+Pahang,2014,B,3265
+Pahang,2014,O,4669
+Pahang,2015,A,2937
+Pahang,2015,AB,827
+Pahang,2015,B,3265
+Pahang,2015,O,4648
+Pahang,2016,A,2707
+Pahang,2016,AB,808
+Pahang,2016,B,3116
+Pahang,2016,O,4364
+Pahang,2017,A,2506
+Pahang,2017,AB,676
+Pahang,2017,B,2625
+Pahang,2017,O,3745
+Pahang,2018,A,1799
+Pahang,2018,AB,466
+Pahang,2018,B,1940
+Pahang,2018,O,2890
+Pahang,2019,A,3872
+Pahang,2019,AB,1035
+Pahang,2019,B,4447
+Pahang,2019,O,6456
+Pahang,2020,A,5720
+Pahang,2020,AB,1379
+Pahang,2020,B,6270
+Pahang,2020,O,8786
+Pahang,2021,A,5767
+Pahang,2021,AB,1440
+Pahang,2021,B,6382
+Pahang,2021,O,9239
+Pahang,2022,A,6070
+Pahang,2022,AB,1459
+Pahang,2022,B,6612
+Pahang,2022,O,9708
+Pahang,2023,A,5801
+Pahang,2023,AB,1342
+Pahang,2023,B,6395
+Pahang,2023,O,9263
+Perak,2006,A,16
+Perak,2006,AB,2
+Perak,2006,B,13
+Perak,2006,O,22
+Perak,2007,A,20
+Perak,2007,AB,4
+Perak,2007,B,14
+Perak,2007,O,15
+Perak,2008,A,5963
+Perak,2008,AB,1595
+Perak,2008,B,6569
+Perak,2008,O,9587
+Perak,2009,A,6501
+Perak,2009,AB,1719
+Perak,2009,B,7187
+Perak,2009,O,10685
+Perak,2010,A,7058
+Perak,2010,AB,1837
+Perak,2010,B,7911
+Perak,2010,O,11534
+Perak,2011,A,8170
+Perak,2011,AB,2105
+Perak,2011,B,8938
+Perak,2011,O,12912
+Perak,2012,A,8572
+Perak,2012,AB,2161
+Perak,2012,B,9253
+Perak,2012,O,13618
+Perak,2013,A,9774
+Perak,2013,AB,2475
+Perak,2013,B,10639
+Perak,2013,O,15627
+Perak,2014,A,9645
+Perak,2014,AB,2570
+Perak,2014,B,10646
+Perak,2014,O,15594
+Perak,2015,A,10078
+Perak,2015,AB,2612
+Perak,2015,B,11008
+Perak,2015,O,16105
+Perak,2016,A,10415
+Perak,2016,AB,2769
+Perak,2016,B,11472
+Perak,2016,O,17192
+Perak,2017,A,10517
+Perak,2017,AB,2781
+Perak,2017,B,11532
+Perak,2017,O,17145
+Perak,2018,A,10748
+Perak,2018,AB,2861
+Perak,2018,B,12063
+Perak,2018,O,18390
+Perak,2019,A,10354
+Perak,2019,AB,2573
+Perak,2019,B,11159
+Perak,2019,O,16946
+Perak,2020,A,9919
+Perak,2020,AB,2558
+Perak,2020,B,10924
+Perak,2020,O,16685
+Perak,2021,A,10380
+Perak,2021,AB,2590
+Perak,2021,B,11602
+Perak,2021,O,18578
+Perak,2022,A,11525
+Perak,2022,AB,2883
+Perak,2022,B,12674
+Perak,2022,O,19414
+Perak,2023,A,11565
+Perak,2023,AB,2790
+Perak,2023,B,12962
+Perak,2023,O,19600
+Pulau Pinang,2006,A,0
+Pulau Pinang,2006,AB,0
+Pulau Pinang,2006,B,0
+Pulau Pinang,2006,O,0
+Pulau Pinang,2007,A,0
+Pulau Pinang,2007,AB,0
+Pulau Pinang,2007,B,0
+Pulau Pinang,2007,O,0
+Pulau Pinang,2008,A,0
+Pulau Pinang,2008,AB,0
+Pulau Pinang,2008,B,0
+Pulau Pinang,2008,O,0
+Pulau Pinang,2009,A,0
+Pulau Pinang,2009,AB,0
+Pulau Pinang,2009,B,0
+Pulau Pinang,2009,O,0
+Pulau Pinang,2010,A,0
+Pulau Pinang,2010,AB,0
+Pulau Pinang,2010,B,0
+Pulau Pinang,2010,O,0
+Pulau Pinang,2011,A,0
+Pulau Pinang,2011,AB,0
+Pulau Pinang,2011,B,0
+Pulau Pinang,2011,O,0
+Pulau Pinang,2012,A,0
+Pulau Pinang,2012,AB,0
+Pulau Pinang,2012,B,0
+Pulau Pinang,2012,O,0
+Pulau Pinang,2013,A,0
+Pulau Pinang,2013,AB,0
+Pulau Pinang,2013,B,0
+Pulau Pinang,2013,O,0
+Pulau Pinang,2014,A,6857
+Pulau Pinang,2014,AB,1734
+Pulau Pinang,2014,B,7309
+Pulau Pinang,2014,O,11169
+Pulau Pinang,2015,A,10421
+Pulau Pinang,2015,AB,2608
+Pulau Pinang,2015,B,10904
+Pulau Pinang,2015,O,16980
+Pulau Pinang,2016,A,10812
+Pulau Pinang,2016,AB,2808
+Pulau Pinang,2016,B,11591
+Pulau Pinang,2016,O,17304
+Pulau Pinang,2017,A,10521
+Pulau Pinang,2017,AB,2619
+Pulau Pinang,2017,B,11203
+Pulau Pinang,2017,O,17254
+Pulau Pinang,2018,A,11016
+Pulau Pinang,2018,AB,2806
+Pulau Pinang,2018,B,11842
+Pulau Pinang,2018,O,18105
+Pulau Pinang,2019,A,10885
+Pulau Pinang,2019,AB,2803
+Pulau Pinang,2019,B,11353
+Pulau Pinang,2019,O,18407
+Pulau Pinang,2020,A,9035
+Pulau Pinang,2020,AB,2202
+Pulau Pinang,2020,B,9807
+Pulau Pinang,2020,O,15468
+Pulau Pinang,2021,A,8717
+Pulau Pinang,2021,AB,2077
+Pulau Pinang,2021,B,9527
+Pulau Pinang,2021,O,14890
+Pulau Pinang,2022,A,9593
+Pulau Pinang,2022,AB,2344
+Pulau Pinang,2022,B,10333
+Pulau Pinang,2022,O,16150
+Pulau Pinang,2023,A,10235
+Pulau Pinang,2023,AB,2597
+Pulau Pinang,2023,B,11319
+Pulau Pinang,2023,O,17482
+Sabah,2006,A,633
+Sabah,2006,AB,130
+Sabah,2006,B,652
+Sabah,2006,O,1521
+Sabah,2007,A,2727
+Sabah,2007,AB,633
+Sabah,2007,B,3004
+Sabah,2007,O,6342
+Sabah,2008,A,4167
+Sabah,2008,AB,960
+Sabah,2008,B,4541
+Sabah,2008,O,9152
+Sabah,2009,A,4403
+Sabah,2009,AB,957
+Sabah,2009,B,4607
+Sabah,2009,O,9604
+Sabah,2010,A,4091
+Sabah,2010,AB,948
+Sabah,2010,B,4412
+Sabah,2010,O,9032
+Sabah,2011,A,4501
+Sabah,2011,AB,1079
+Sabah,2011,B,4794
+Sabah,2011,O,9879
+Sabah,2012,A,4818
+Sabah,2012,AB,1136
+Sabah,2012,B,5096
+Sabah,2012,O,10283
+Sabah,2013,A,4912
+Sabah,2013,AB,1090
+Sabah,2013,B,5159
+Sabah,2013,O,11165
+Sabah,2014,A,4923
+Sabah,2014,AB,1105
+Sabah,2014,B,5231
+Sabah,2014,O,11248
+Sabah,2015,A,5175
+Sabah,2015,AB,1170
+Sabah,2015,B,5511
+Sabah,2015,O,11925
+Sabah,2016,A,6512
+Sabah,2016,AB,1465
+Sabah,2016,B,6970
+Sabah,2016,O,14322
+Sabah,2017,A,7518
+Sabah,2017,AB,1634
+Sabah,2017,B,8221
+Sabah,2017,O,16394
+Sabah,2018,A,7628
+Sabah,2018,AB,1599
+Sabah,2018,B,8132
+Sabah,2018,O,16491
+Sabah,2019,A,8122
+Sabah,2019,AB,1686
+Sabah,2019,B,8677
+Sabah,2019,O,17671
+Sabah,2020,A,7576
+Sabah,2020,AB,1685
+Sabah,2020,B,8236
+Sabah,2020,O,16572
+Sabah,2021,A,6836
+Sabah,2021,AB,1472
+Sabah,2021,B,7538
+Sabah,2021,O,15364
+Sabah,2022,A,8036
+Sabah,2022,AB,1750
+Sabah,2022,B,8759
+Sabah,2022,O,16985
+Sabah,2023,A,9049
+Sabah,2023,AB,1996
+Sabah,2023,B,9715
+Sabah,2023,O,19064
+Sarawak,2006,A,35
+Sarawak,2006,AB,5
+Sarawak,2006,B,40
+Sarawak,2006,O,41
+Sarawak,2007,A,46
+Sarawak,2007,AB,8
+Sarawak,2007,B,52
+Sarawak,2007,O,74
+Sarawak,2008,A,2948
+Sarawak,2008,AB,831
+Sarawak,2008,B,3553
+Sarawak,2008,O,5200
+Sarawak,2009,A,3832
+Sarawak,2009,AB,1040
+Sarawak,2009,B,4459
+Sarawak,2009,O,6512
+Sarawak,2010,A,4033
+Sarawak,2010,AB,1147
+Sarawak,2010,B,4867
+Sarawak,2010,O,6751
+Sarawak,2011,A,3990
+Sarawak,2011,AB,1091
+Sarawak,2011,B,4841
+Sarawak,2011,O,6620
+Sarawak,2012,A,4160
+Sarawak,2012,AB,1159
+Sarawak,2012,B,4936
+Sarawak,2012,O,6817
+Sarawak,2013,A,4700
+Sarawak,2013,AB,1274
+Sarawak,2013,B,5684
+Sarawak,2013,O,7890
+Sarawak,2014,A,6856
+Sarawak,2014,AB,1969
+Sarawak,2014,B,8219
+Sarawak,2014,O,11687
+Sarawak,2015,A,9214
+Sarawak,2015,AB,2636
+Sarawak,2015,B,10586
+Sarawak,2015,O,15042
+Sarawak,2016,A,8822
+Sarawak,2016,AB,2556
+Sarawak,2016,B,10239
+Sarawak,2016,O,14348
+Sarawak,2017,A,9048
+Sarawak,2017,AB,2517
+Sarawak,2017,B,10420
+Sarawak,2017,O,14632
+Sarawak,2018,A,8959
+Sarawak,2018,AB,2659
+Sarawak,2018,B,10577
+Sarawak,2018,O,15095
+Sarawak,2019,A,9055
+Sarawak,2019,AB,2650
+Sarawak,2019,B,10829
+Sarawak,2019,O,15033
+Sarawak,2020,A,7923
+Sarawak,2020,AB,2277
+Sarawak,2020,B,9684
+Sarawak,2020,O,14076
+Sarawak,2021,A,8277
+Sarawak,2021,AB,2307
+Sarawak,2021,B,10286
+Sarawak,2021,O,14913
+Sarawak,2022,A,9565
+Sarawak,2022,AB,2526
+Sarawak,2022,B,11388
+Sarawak,2022,O,16648
+Sarawak,2023,A,9984
+Sarawak,2023,AB,2499
+Sarawak,2023,B,11922
+Sarawak,2023,O,17188
+Selangor,2006,A,941
+Selangor,2006,AB,258
+Selangor,2006,B,1118
+Selangor,2006,O,1658
+Selangor,2007,A,4497
+Selangor,2007,AB,1181
+Selangor,2007,B,5092
+Selangor,2007,O,7414
+Selangor,2008,A,4392
+Selangor,2008,AB,1198
+Selangor,2008,B,5015
+Selangor,2008,O,7164
+Selangor,2009,A,5418
+Selangor,2009,AB,1458
+Selangor,2009,B,5989
+Selangor,2009,O,8803
+Selangor,2010,A,6220
+Selangor,2010,AB,1596
+Selangor,2010,B,6839
+Selangor,2010,O,10113
+Selangor,2011,A,6441
+Selangor,2011,AB,1716
+Selangor,2011,B,7208
+Selangor,2011,O,10582
+Selangor,2012,A,6149
+Selangor,2012,AB,1573
+Selangor,2012,B,6812
+Selangor,2012,O,9849
+Selangor,2013,A,5646
+Selangor,2013,AB,1437
+Selangor,2013,B,6232
+Selangor,2013,O,9273
+Selangor,2014,A,6012
+Selangor,2014,AB,1571
+Selangor,2014,B,6580
+Selangor,2014,O,9939
+Selangor,2015,A,6183
+Selangor,2015,AB,1662
+Selangor,2015,B,7069
+Selangor,2015,O,10295
+Selangor,2016,A,6056
+Selangor,2016,AB,1680
+Selangor,2016,B,6900
+Selangor,2016,O,10349
+Selangor,2017,A,6398
+Selangor,2017,AB,1707
+Selangor,2017,B,7203
+Selangor,2017,O,10707
+Selangor,2018,A,6569
+Selangor,2018,AB,1711
+Selangor,2018,B,7329
+Selangor,2018,O,11323
+Selangor,2019,A,6842
+Selangor,2019,AB,1810
+Selangor,2019,B,7576
+Selangor,2019,O,11836
+Selangor,2020,A,7117
+Selangor,2020,AB,1824
+Selangor,2020,B,7794
+Selangor,2020,O,12497
+Selangor,2021,A,6265
+Selangor,2021,AB,1502
+Selangor,2021,B,6984
+Selangor,2021,O,11340
+Selangor,2022,A,7213
+Selangor,2022,AB,1665
+Selangor,2022,B,7843
+Selangor,2022,O,12590
+Selangor,2023,A,7473
+Selangor,2023,AB,1557
+Selangor,2023,B,8290
+Selangor,2023,O,12810
+Terengganu,2006,A,5177
+Terengganu,2006,AB,1465
+Terengganu,2006,B,5742
+Terengganu,2006,O,7957
+Terengganu,2007,A,4740
+Terengganu,2007,AB,1309
+Terengganu,2007,B,5444
+Terengganu,2007,O,7189
+Terengganu,2008,A,3494
+Terengganu,2008,AB,998
+Terengganu,2008,B,3972
+Terengganu,2008,O,5310
+Terengganu,2009,A,3602
+Terengganu,2009,AB,997
+Terengganu,2009,B,4164
+Terengganu,2009,O,5499
+Terengganu,2010,A,3635
+Terengganu,2010,AB,1003
+Terengganu,2010,B,4239
+Terengganu,2010,O,5733
+Terengganu,2011,A,3708
+Terengganu,2011,AB,990
+Terengganu,2011,B,4384
+Terengganu,2011,O,5721
+Terengganu,2012,A,3573
+Terengganu,2012,AB,1062
+Terengganu,2012,B,4234
+Terengganu,2012,O,5849
+Terengganu,2013,A,3527
+Terengganu,2013,AB,1064
+Terengganu,2013,B,3949
+Terengganu,2013,O,5375
+Terengganu,2014,A,3548
+Terengganu,2014,AB,963
+Terengganu,2014,B,4025
+Terengganu,2014,O,5394
+Terengganu,2015,A,3860
+Terengganu,2015,AB,1056
+Terengganu,2015,B,4411
+Terengganu,2015,O,5956
+Terengganu,2016,A,3844
+Terengganu,2016,AB,1085
+Terengganu,2016,B,4365
+Terengganu,2016,O,6014
+Terengganu,2017,A,3929
+Terengganu,2017,AB,1104
+Terengganu,2017,B,4491
+Terengganu,2017,O,6160
+Terengganu,2018,A,4329
+Terengganu,2018,AB,1266
+Terengganu,2018,B,5123
+Terengganu,2018,O,7154
+Terengganu,2019,A,3931
+Terengganu,2019,AB,1164
+Terengganu,2019,B,4631
+Terengganu,2019,O,6578
+Terengganu,2020,A,3769
+Terengganu,2020,AB,1083
+Terengganu,2020,B,4325
+Terengganu,2020,O,6184
+Terengganu,2021,A,3955
+Terengganu,2021,AB,1156
+Terengganu,2021,B,4512
+Terengganu,2021,O,6557
+Terengganu,2022,A,4466
+Terengganu,2022,AB,1251
+Terengganu,2022,B,5081
+Terengganu,2022,O,7428
+Terengganu,2023,A,4688
+Terengganu,2023,AB,1398
+Terengganu,2023,B,5379
+Terengganu,2023,O,7892
+W.P. Kuala Lumpur,2006,A,33593
+W.P. Kuala Lumpur,2006,AB,8776
+W.P. Kuala Lumpur,2006,B,36141
+W.P. Kuala Lumpur,2006,O,54960
+W.P. Kuala Lumpur,2007,A,36422
+W.P. Kuala Lumpur,2007,AB,9534
+W.P. Kuala Lumpur,2007,B,39715
+W.P. Kuala Lumpur,2007,O,59923
+W.P. Kuala Lumpur,2008,A,38874
+W.P. Kuala Lumpur,2008,AB,10170
+W.P. Kuala Lumpur,2008,B,42615
+W.P. Kuala Lumpur,2008,O,63742
+W.P. Kuala Lumpur,2009,A,40642
+W.P. Kuala Lumpur,2009,AB,10840
+W.P. Kuala Lumpur,2009,B,44314
+W.P. Kuala Lumpur,2009,O,66892
+W.P. Kuala Lumpur,2010,A,38070
+W.P. Kuala Lumpur,2010,AB,10212
+W.P. Kuala Lumpur,2010,B,41505
+W.P. Kuala Lumpur,2010,O,63152
+W.P. Kuala Lumpur,2011,A,40232
+W.P. Kuala Lumpur,2011,AB,10595
+W.P. Kuala Lumpur,2011,B,43511
+W.P. Kuala Lumpur,2011,O,66206
+W.P. Kuala Lumpur,2012,A,40809
+W.P. Kuala Lumpur,2012,AB,10650
+W.P. Kuala Lumpur,2012,B,43817
+W.P. Kuala Lumpur,2012,O,66742
+W.P. Kuala Lumpur,2013,A,41879
+W.P. Kuala Lumpur,2013,AB,10873
+W.P. Kuala Lumpur,2013,B,45314
+W.P. Kuala Lumpur,2013,O,68745
+W.P. Kuala Lumpur,2014,A,43628
+W.P. Kuala Lumpur,2014,AB,11455
+W.P. Kuala Lumpur,2014,B,47924
+W.P. Kuala Lumpur,2014,O,72244
+W.P. Kuala Lumpur,2015,A,46106
+W.P. Kuala Lumpur,2015,AB,11726
+W.P. Kuala Lumpur,2015,B,50439
+W.P. Kuala Lumpur,2015,O,75581
+W.P. Kuala Lumpur,2016,A,45038
+W.P. Kuala Lumpur,2016,AB,10830
+W.P. Kuala Lumpur,2016,B,49127
+W.P. Kuala Lumpur,2016,O,75039
+W.P. Kuala Lumpur,2017,A,45901
+W.P. Kuala Lumpur,2017,AB,10818
+W.P. Kuala Lumpur,2017,B,49103
+W.P. Kuala Lumpur,2017,O,74772
+W.P. Kuala Lumpur,2018,A,49010
+W.P. Kuala Lumpur,2018,AB,11660
+W.P. Kuala Lumpur,2018,B,52605
+W.P. Kuala Lumpur,2018,O,80740
+W.P. Kuala Lumpur,2019,A,50198
+W.P. Kuala Lumpur,2019,AB,11353
+W.P. Kuala Lumpur,2019,B,53934
+W.P. Kuala Lumpur,2019,O,83009
+W.P. Kuala Lumpur,2020,A,42859
+W.P. Kuala Lumpur,2020,AB,9497
+W.P. Kuala Lumpur,2020,B,45795
+W.P. Kuala Lumpur,2020,O,71779
+W.P. Kuala Lumpur,2021,A,43322
+W.P. Kuala Lumpur,2021,AB,9262
+W.P. Kuala Lumpur,2021,B,47709
+W.P. Kuala Lumpur,2021,O,73662
+W.P. Kuala Lumpur,2022,A,50271
+W.P. Kuala Lumpur,2022,AB,10614
+W.P. Kuala Lumpur,2022,B,54975
+W.P. Kuala Lumpur,2022,O,86536
+W.P. Kuala Lumpur,2023,A,51695
+W.P. Kuala Lumpur,2023,AB,10513
+W.P. Kuala Lumpur,2023,B,56008
+W.P. Kuala Lumpur,2023,O,88057
+All States,2006,A,55038
+All States,2006,AB,14763
+All States,2006,B,59595
+All States,2006,O,89492
+All States,2007,A,69590
+All States,2007,AB,18459
+All States,2007,B,76382
+All States,2007,O,114941
+All States,2008,A,86356
+All States,2008,AB,22959
+All States,2008,B,95708
+All States,2008,O,143340
+All States,2009,A,96037
+All States,2009,AB,25269
+All States,2009,B,105113
+All States,2009,O,158857
+All States,2010,A,97387
+All States,2010,AB,26006
+All States,2010,B,107653
+All States,2010,O,162109
+All States,2011,A,103839
+All States,2011,AB,27102
+All States,2011,B,114135
+All States,2011,O,171668
+All States,2012,A,106611
+All States,2012,AB,27665
+All States,2012,B,116070
+All States,2012,O,174370
+All States,2013,A,110018
+All States,2013,AB,28318
+All States,2013,B,120196
+All States,2013,O,181361
+All States,2014,A,121334
+All States,2014,AB,31857
+All States,2014,B,133759
+All States,2014,O,200847
+All States,2015,A,133917
+All States,2015,AB,34520
+All States,2015,B,146648
+All States,2015,O,220729
+All States,2016,A,132527
+All States,2016,AB,33947
+All States,2016,B,145393
+All States,2016,O,221411
+All States,2017,A,132112
+All States,2017,AB,33069
+All States,2017,B,143786
+All States,2017,O,220147
+All States,2018,A,140099
+All States,2018,AB,35237
+All States,2018,B,153450
+All States,2018,O,236306
+All States,2019,A,139395
+All States,2019,AB,33789
+All States,2019,B,151429
+All States,2019,O,236151
+All States,2020,A,122950
+All States,2020,AB,29408
+All States,2020,B,134325
+All States,2020,O,210894
+All States,2021,A,121951
+All States,2021,AB,28767
+All States,2021,B,135854
+All States,2021,O,213177
+All States,2022,A,138191
+All States,2022,AB,31539
+All States,2022,B,151370
+All States,2022,O,238701
+All States,2023,A,142287
+All States,2023,AB,32054
+All States,2023,B,156152
+All States,2023,O,244880
