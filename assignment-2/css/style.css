@@ -33,7 +33,7 @@ body {
 }
 
 .card-body {
-    padding: 20px;
+    padding: 30px;
     padding-bottom: 0px;
     line-height: 1.5;
 }
@@ -48,4 +48,9 @@ body {
 
 .text-muted {
     color: #6c757d;
+}
+
+.flex-container {
+    display: flex;
+    text-align: justify;
 }

@@ -19,30 +19,47 @@
     <div class="card">
       <div class="card-header">
         <h1 style="font-size: 3rem">Malaysia's Pulse of Generosity</h1>
-        <h3>An analysis of blood donations across Malaysia</h3>
+        <h3>Uncovering Trends in Blood Donations Across States in Malaysia</h3>
       </div>
-      <div class="card-body" style="text-align: justify;">
-        <p>In Malaysia, the number of people pledging their organs and participating in blood donations is closely tied
-          to socio-economic factors. This data visualization explores organ donation pledges by state and
-          compares median household income with blood donations from 2006 to 2023, offering insights into regional
-          differences and
-          how socio-economic factors may impact donor activity.</p>
+      <div class="card-body flex-container">
+        <div style="flex: 1; padding-right: 20px;">
+          <p>This interactive visualisation offers a detailed look into Malaysia's blood and organ donation patterns
+            over the years. It highlights regional disparities, the impact of socio-economic factors, and the effects of
+            the COVID-19 pandemic on donor engagement. Hover over the maps and charts to uncover the story behind the
+            numbers and explore key insights by state.</p>
+        </div>
+        <div style="flex: 1; padding-left: 20px;">
+          <p><i>The data for W.P. Kuala Lumpur includes all donations made in W.P. Putrajaya, and all donations made at
+              mobile campaigns (e.g. at shopping malls, universities, stadiums, etc) around Selangor. Therefore,
+              analysis of blood donor rates by state should treat the Klang Valley as a single group comprising 3
+              states.</i></p>
+          <p><i>For the purposes of this visualisation, federal territories are categorised as states.</i></p>
+        </div>
       </div>
     </div>
     <div class="card">
       <div class="card-body" style="text-align: justify;">
-        <p>
-          This interactive map displays organ donation pledges per 10 000 population across different
-          states in Malaysia in 2022. Darker regions indicate higher engagement, while lighter regions show lower
-          participation. You can hover over a state to view detailed statistics.
-        </p>
         <h3 class="text-center">Total Blood Donations per 10 000 Population by State (2006 - 2023)</h3>
         <div id="vis1" style="width: 100%; height: auto; margin: auto"></div>
-        <div style="display: flex; align-items: center; padding-bottom: 15px;">
+        <div style="display: flex; align-items: center;">
           <p style="margin-right: 10px;">Select Year:</p>
           <input type="range" id="map-year-slider" min="2006" max="2023" step="1" value="2023"
             style="margin-right: 10px;">
           <span id="map-year-slider-value">2023</span>
+        </div>
+        <div>
+          <p>
+            The map highlights regional disparities in blood donation rates from 2006 to 2023. States like
+            W.P. Kuala Lumpur, with a higher public health awareness, consistently report higher donation
+            rates. In contrast, states with less developed healthcare infrastructure, such as
+            Kelantan, show lower engagement. These differences suggest that localised awareness
+            efforts significantly influence donation activity.
+          </p>
+          <p>
+            <i>
+              Hover over a state to view detailed statistics.
+            </i>
+          </p>
         </div>
       </div>
       <hr>
@@ -53,7 +70,7 @@
     </div>
     <div class="card">
       <h3 class="text-center">Household Income vs. Blood Donations per 10 000 Population by State (2007-2022)</h3>
-      <div class="card-body" style="display: flex;">
+      <div class="card-body flex-container">
         <div style="flex: 6;">
           <div id="vis2" style="width: 100%; height: auto; margin: auto"></div>
           <div style="display: flex; align-items: center; padding-bottom: 15px;">
@@ -65,30 +82,37 @@
         </div>
         <div style="flex: 3; padding-left: 20px; text-align: justify;">
           <p style="margin-top: 0;">
-            W.P. Kuala Lumpur and W.P. Putrajaya exhibit high pledge rates despite their smaller populations,
-            suggesting a strong culture of organ donation in these urban centers. Selangor, the most populous state,
-            shows
-            both a high pledge rate and higher household income, which may suggest a link between income levels and
-            organ
-            donation activity. In contrast, states with lower incomes, such as Kelantan and Sabah, tend to have lower
-            pledge rates, indicating socioeconomic factors could influence donor participation.
+            W.P. Kuala Lumpur leads in both blood donations and household income, suggesting a potential link between
+            wealth and donation rates. In contrast, states with lower household incomes, such as Sabah, report fewer
+            donations, indicating that socioeconomic factors may influence donor behavior.
+          </p>
+          <p>
+            <i>
+              Please note that the data for W.P. Kuala Lumpur may overestimate its true donor rate (and underestimate
+              Selangor's) because
+              donations from the National Blood Centre's mobile campaigns in Selangor and W.P. Putrajaya are often
+              recorded under W.P. Kuala Lumpur.
+            </i>
           </p>
         </div>
       </div>
       <hr>
       <footer class="figure-caption text-right">
-        Source: <a href="https://data.gov.my/data-catalogue/hh_income_state">Household Income Data</a>
+        Source: <a href="https://data.gov.my/data-catalogue/blood_donations_state">Blood Donations Data</a>, <a
+          href="https://data.gov.my/data-catalogue/population_state">Population Data</a> and <a
+          href="https://data.gov.my/data-catalogue/hh_income_state">Household Income Data</a>
       </footer>
     </div>
     <div class="card">
       <h3 class="text-center">Blood Donations and Organ Donation Pledges (2010–2023)</h3>
-      <div class="card-body" style="display: flex;">
+      <div class="card-body flex-container">
         <div style="flex: 3; text-align: justify;">
           <p style="margin-top: 0;">
             We can see a possible correlation between blood donations and organ donation pledges.
             Blood donations steadily increased until 2019, surpassing 1 million annually in 2015.
             However, both dipped sharply during the COVID-19 pandemic, with blood donations hitting a decade low in
-            2021, and organ donation pledges bottoming out in 2020. In 2022, organ pledges surged to a record-breaking 51 772,
+            2021, and organ donation pledges bottoming out in 2020. In 2022, organ pledges surged to a record-breaking
+            51772,
             reflecting renewed interest post-pandemic.
           </p>
         </div>
@@ -98,40 +122,54 @@
       </div>
       <hr>
       <footer class="figure-caption text-right">
-        Source: <a href="https://data.gov.my/data-catalogue/organ_pledges_state">Organ Pledges Data</a>
+        Source: <a href="https://data.gov.my/data-catalogue/blood_donations_state">Blood Donations Data</a> and <a
+          href="https://data.gov.my/data-catalogue/organ_pledges_state">Organ Pledges Data</a>
       </footer>
     </div>
     <div class="card">
       <h3 class="text-center">Blood Donations by Type Over Time (2006–2023)</h3>
-      <div class="card-body" style="display: flex;">
+      <div class="card-body flex-container">
         <div style="flex: 5;">
           <div id="vis4" style="width: 100%; height: auto; margin: auto"></div>
         </div>
         <div style="flex: 3; padding-left: 20px; text-align: justify;">
           <p style="margin-top: 0;">
-            By observing the difference in blood type donations, we see that Type O consistently has the highest donation
+            By observing the difference in blood type donations, we see that Type O consistently has the highest
+            donation
             levels, followed by types B and A, while type AB remains the least donated. The trends highlight a steady
             rise in donations, with noticeable growth for all types, especially for type O, reflecting its universal
             donor importance.
           </p>
         </div>
       </div>
+      <hr>
+      <footer class="figure-caption text-right">
+        Source: <a href="https://data.gov.my/data-catalogue/blood_donations_state">Blood Donations Data</a>
+      </footer>
     </div>
     <div class="card">
       <h3 class="text-center">Total Blood Donations Over Time by State (2006 vs 2023)</h3>
-      <div class="card-body" style="display: flex;">
+      <div class="card-body flex-container">
         <div style="flex: 3; text-align: justify;">
           <p style="margin-top: 0;">
-            Finally, inspecting the changes in blood donations across Malaysian states from 2006 to 2023, unsurprisingly
-            W.P. Kuala Lumpur shows the largest growth,
-            In contrast, Kedah saw a decline in donations, underscoring the regional differences in donor engagement and
-            possible socio-economic factors affecting donation rates.
+            Finally, examining the changes in blood donations across Malaysian states from 2006 to 2023, W.P. Kuala
+            Lumpur stands out with the most significant growth, reflecting its central role in healthcare services and
+            donor mobilisation. 
+          </p>
+          <p>
+            In contrast, Kedah experienced a decline in donations, likely due to a combination of
+            factors such as limited access to healthcare facilities, lower awareness campaigns, and a more rural
+            population base.
           </p>
         </div>
         <div style="flex: 5; padding-left: 20px;">
           <div id="vis5" style="width: 100%; height: auto; margin: auto"></div>
         </div>
       </div>
+      <hr>
+      <footer class="figure-caption text-right">
+        Source: <a href="https://data.gov.my/data-catalogue/blood_donations_state">Blood Donations Data</a>
+      </footer>
     </div>
     <div class="card">
       <div class="card-footer text-center">
@@ -165,7 +203,6 @@
     const bubblePlotYearSlider = document.getElementById("bubble-plot-year-slider");
     const bubblePlotYearSliderValue = document.getElementById("bubble-plot-year-slider-value");
 
-    // Embed Vega visualizations with consistent options
     vegaEmbed("#vis1", specVis1, opt).then((result) => {
       const view = result.view;
 
@@ -175,7 +212,7 @@
         view.signal("selectedYear", selectedYear).runAsync();
       });
     }).catch((error) => {
-      console.error("Error embedding visualization:", error);
+      console.error("Error embedding visualisation:", error);
     });
 
     vegaEmbed("#vis2", specVis2, opt).then((result) => {
@@ -187,22 +224,22 @@
         view.signal("selectedYear", selectedYear).runAsync();
       });
     }).catch((error) => {
-      console.error("Error embedding visualization:", error);
+      console.error("Error embedding visualisation:", error);
     });
 
     vegaEmbed('#vis3', specVis3, opt).then(function (result) {
     }).catch((error) => {
-      console.error("Error embedding visualization:", error);
+      console.error("Error embedding visualisation:", error);
     });
 
     vegaEmbed('#vis4', specVis4, opt).then(function (result) {
     }).catch((error) => {
-      console.error("Error embedding visualization:", error);
+      console.error("Error embedding visualisation:", error);
     });
 
     vegaEmbed('#vis5', specVis5, opt).then(function (result) {
     }).catch((error) => {
-      console.error("Error embedding visualization:", error);
+      console.error("Error embedding visualisation:", error);
     });
   </script>
 </body>
