@@ -3,8 +3,6 @@
 
 <head>
   <title>FIT3179 Assignment 2 - Joshua Yap</title>
-  <!-- Import pure.css -->
-  <link href="https://cdn.jsdelivr.net/npm/purecss@2.0.6/build/pure-min.css" rel="stylesheet">
   <!-- Import Poppin font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
   <!-- Import Vega & Vega-Lite -->
@@ -21,98 +19,139 @@
     <div class="card">
       <div class="card-header">
         <h1 style="font-size: 3rem">Malaysia's Pulse of Generosity</h1>
-        <h3>An analysis of organ donation pledges and blood donations across Malaysia</h3>
+        <h3>An analysis of blood donations across Malaysia</h3>
       </div>
-      <div class="card-body">
+      <div class="card-body" style="text-align: justify;">
         <p>In Malaysia, the number of people pledging their organs and participating in blood donations is closely tied
           to socio-economic factors. This data visualization explores organ donation pledges by state and
-          compares median household income with blood donations from 2010 to 2023, offering insights into regional differences and
+          compares median household income with blood donations from 2006 to 2023, offering insights into regional
+          differences and
           how socio-economic factors may impact donor activity.</p>
       </div>
     </div>
     <div class="card">
-      <div class="card-body">
+      <div class="card-body" style="text-align: justify;">
         <p>
           This interactive map displays organ donation pledges per 10 000 population across different
           states in Malaysia in 2022. Darker regions indicate higher engagement, while lighter regions show lower
           participation. You can hover over a state to view detailed statistics.
         </p>
-        <h3 class="text-center">Total Blood Donations per 10 000 Population by State in Malaysia (2006 - 2023)</h3>
+        <h3 class="text-center">Total Blood Donations per 10 000 Population by State (2006 - 2023)</h3>
         <div id="vis1" style="width: 100%; height: auto; margin: auto"></div>
-        <div>
-          <p>Select Year:</p>
-          <input type="range" id="map-year-slider" min="2006" max="2023" step="1" value="2023">
+        <div style="display: flex; align-items: center; padding-bottom: 15px;">
+          <p style="margin-right: 10px;">Select Year:</p>
+          <input type="range" id="map-year-slider" min="2006" max="2023" step="1" value="2023"
+            style="margin-right: 10px;">
           <span id="map-year-slider-value">2023</span>
         </div>
-        <!-- <figure class="figure-caption text-right">
-          Source: <a href="https://example.com/donation-data">Organ Donation Data Malaysia 2023</a>
-        </figure> -->
       </div>
+      <hr>
+      <footer class="figure-caption text-right">
+        Source: <a href="https://data.gov.my/data-catalogue/blood_donations_state">Blood Donations Data</a> and <a
+          href="https://data.gov.my/data-catalogue/population_state">Population Data</a>
+      </footer>
     </div>
     <div class="card">
-      <div class="card-body">
-        <p>
-          This visualization illustrates the relationship between median household income and organ donation pledges per
-          10,000 population across Malaysian states in 2022. The size of each bubble represents the state's population,
-          providing additional context.
-        </p>
-        <h3 class="text-center">Median Household Income vs. Organ Donation Pledges per 10 000 population by
-          state in 2022</h3>
-        <div id="vis2" style="width: 100%; height: auto; margin: auto"></div>
-        <div>
-          <p><b>Year:</b></p>
-          <input type="range" id="bubble-plot-year-slider" min="0" max="7" step="1" value="7">
-          <span id="bubble-plot-year-slider-value">2022</span>
+      <h3 class="text-center">Household Income vs. Blood Donations per 10 000 Population by State (2007-2022)</h3>
+      <div class="card-body" style="display: flex;">
+        <div style="flex: 6;">
+          <div id="vis2" style="width: 100%; height: auto; margin: auto"></div>
+          <div style="display: flex; align-items: center; padding-bottom: 15px;">
+            <p style="margin-right: 10px;">Select Year:</p>
+            <input type="range" id="bubble-plot-year-slider" min="0" max="7" step="1" value="7"
+              style="margin-right: 10px;">
+            <span id="bubble-plot-year-slider-value">2022</span>
+          </div>
         </div>
-        <p>
-          W.P. Kuala Lumpur and W.P. Putrajaya exhibit high pledge rates despite their smaller populations,
-          suggesting a strong culture of organ donation in these urban centers. Selangor, the most populous state, shows
-          both a high pledge rate and higher household income, which may suggest a link between income levels and organ
-          donation activity. In contrast, states with lower incomes, such as Kelantan and Sabah, tend to have lower
-          pledge rates, indicating socioeconomic factors could influence donor participation.
-        </p>
-        <!-- <hr>
-        <figure class="figure-caption text-left">
-          Source: <a href="https://example.com/income-data">Household Income and Blood Donation Data 2022</a>
-        </figure> -->
+        <div style="flex: 3; padding-left: 20px; text-align: justify;">
+          <p style="margin-top: 0;">
+            W.P. Kuala Lumpur and W.P. Putrajaya exhibit high pledge rates despite their smaller populations,
+            suggesting a strong culture of organ donation in these urban centers. Selangor, the most populous state,
+            shows
+            both a high pledge rate and higher household income, which may suggest a link between income levels and
+            organ
+            donation activity. In contrast, states with lower incomes, such as Kelantan and Sabah, tend to have lower
+            pledge rates, indicating socioeconomic factors could influence donor participation.
+          </p>
+        </div>
+      </div>
+      <hr>
+      <footer class="figure-caption text-right">
+        Source: <a href="https://data.gov.my/data-catalogue/hh_income_state">Household Income Data</a>
+      </footer>
+    </div>
+    <div class="card">
+      <h3 class="text-center">Blood Donations and Organ Donation Pledges (2010–2023)</h3>
+      <div class="card-body" style="display: flex;">
+        <div style="flex: 3; text-align: justify;">
+          <p style="margin-top: 0;">
+            We can see a possible correlation between blood donations and organ donation pledges.
+            Blood donations steadily increased until 2019, surpassing 1 million annually in 2015.
+            However, both dipped sharply during the COVID-19 pandemic, with blood donations hitting a decade low in
+            2021, and organ donation pledges bottoming out in 2020. In 2022, organ pledges surged to a record-breaking 51 772,
+            reflecting renewed interest post-pandemic.
+          </p>
+        </div>
+        <div style="flex: 5; padding-left: 20px;">
+          <div id="vis3" style="width: 100%; height: auto; margin: auto"></div>
+        </div>
+      </div>
+      <hr>
+      <footer class="figure-caption text-right">
+        Source: <a href="https://data.gov.my/data-catalogue/organ_pledges_state">Organ Pledges Data</a>
+      </footer>
+    </div>
+    <div class="card">
+      <h3 class="text-center">Blood Donations by Type Over Time (2006–2023)</h3>
+      <div class="card-body" style="display: flex;">
+        <div style="flex: 5;">
+          <div id="vis4" style="width: 100%; height: auto; margin: auto"></div>
+        </div>
+        <div style="flex: 3; padding-left: 20px; text-align: justify;">
+          <p style="margin-top: 0;">
+            By observing the difference in blood type donations, we see that Type O consistently has the highest donation
+            levels, followed by types B and A, while type AB remains the least donated. The trends highlight a steady
+            rise in donations, with noticeable growth for all types, especially for type O, reflecting its universal
+            donor importance.
+          </p>
+        </div>
       </div>
     </div>
     <div class="card">
-      <div class="card-body">
-        <p>
-          This visualization highlights the trends in blood donations and organ donation pledges in Malaysia from 2010
-          to 2023. Blood donations steadily increased until 2019, surpassing 1 million annually in 2015. However,
-          both dipped sharply during the COVID-19 pandemic, with blood donations hitting a decade low in 2021, and organ
-          donation pledges
-          bottoming out in 2020.
-        </p>
-        <h3 class="text-center">Blood Donations and Organ Donation Pledges in Malaysia (2010-2023)</h3>
-        <div id="vis3" style="width: 100%; height: auto; margin: auto"></div>
-        <p>
-          In 2022, organ pledges surged to a record-breaking 51 772, reflecting renewed interest post-pandemic. The
-          overall rise in donations can be linked to awareness campaigns and public health efforts.
-        </p>
+      <h3 class="text-center">Total Blood Donations Over Time by State (2006 vs 2023)</h3>
+      <div class="card-body" style="display: flex;">
+        <div style="flex: 3; text-align: justify;">
+          <p style="margin-top: 0;">
+            Finally, inspecting the changes in blood donations across Malaysian states from 2006 to 2023, unsurprisingly
+            W.P. Kuala Lumpur shows the largest growth,
+            In contrast, Kedah saw a decline in donations, underscoring the regional differences in donor engagement and
+            possible socio-economic factors affecting donation rates.
+          </p>
+        </div>
+        <div style="flex: 5; padding-left: 20px;">
+          <div id="vis5" style="width: 100%; height: auto; margin: auto"></div>
+        </div>
       </div>
     </div>
-    <div class="card">
-      <div class="card-body">
-        <div id="vis4" style="width: 100%; height: auto; margin: auto"></div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-body">
-        <div id="vis5" style="width: 100%; height: auto; margin: auto"></div>
-      </div>
-    </div>
-    <div class="card">
     <div class="card">
       <div class="card-footer text-center">
-        <p><b>Joshua Yap 2024</b> | FIT3179 - Data Visualisation Assignment 2</p>
+        <p><b>Joshua Ethan Yap Qing You, 2024</b> | FIT3179 - Data Visualisation Assignment 2</p>
+        <p>Data sources used throughout include <a href="https://data.gov.my/data-catalogue/blood_donations_state">Blood
+            Donations Data</a>, <a href="https://data.gov.my/data-catalogue/population_state">Population Data</a>, <a
+            href="https://data.gov.my/data-catalogue/hh_income_state">Household Income Data</a>, and <a
+            href="https://data.gov.my/data-catalogue/organ_pledges_state">Organ Pledges Data</a> from <a
+            href="https://data.gov.my">data.gov.my.</a></p>
       </div>
     </div>
   </div>
 
   <script type="text/javascript">
+    // Define Vega embed options
+    const opt = {
+      renderer: "svg",
+      actions: false
+    };
+
     var specVis1 = "./js/blood_donations_map.json";
     var specVis2 = "./js/blood_donations_household_income_bubble.json";
     var specVis3 = "./js/organ_blood_donation_bar.json";
@@ -126,10 +165,8 @@
     const bubblePlotYearSlider = document.getElementById("bubble-plot-year-slider");
     const bubblePlotYearSliderValue = document.getElementById("bubble-plot-year-slider-value");
 
-    vegaEmbed("#vis1", specVis1, opt = { 
-      render: "svg", 
-      "actions": false
-    }).then((result) => {
+    // Embed Vega visualizations with consistent options
+    vegaEmbed("#vis1", specVis1, opt).then((result) => {
       const view = result.view;
 
       mapYearSlider.addEventListener("input", function () {
@@ -137,39 +174,36 @@
         mapYearSliderValue.textContent = selectedYear;
         view.signal("selectedYear", selectedYear).runAsync();
       });
-    }).catch(console.error);
+    }).catch((error) => {
+      console.error("Error embedding visualization:", error);
+    });
 
-    vegaEmbed("#vis2", specVis2, opt = { 
-      render: "svg", 
-      "actions": false
-    }).then((result) => {
+    vegaEmbed("#vis2", specVis2, opt).then((result) => {
       const view = result.view;
 
       bubblePlotYearSlider.addEventListener("input", function () {
         const selectedYear = bubblePlotYears[this.value];
-        
         bubblePlotYearSliderValue.textContent = selectedYear;
         view.signal("selectedYear", selectedYear).runAsync();
       });
-    }).catch(console.error);
+    }).catch((error) => {
+      console.error("Error embedding visualization:", error);
+    });
 
-    vegaEmbed('#vis3', specVis3, opt = {
-      renderer: "svg",
-      actions: false
-    }).then(function (result) {
-    }).catch(console.error);
+    vegaEmbed('#vis3', specVis3, opt).then(function (result) {
+    }).catch((error) => {
+      console.error("Error embedding visualization:", error);
+    });
 
-    vegaEmbed('#vis4', specVis4, opt = {
-      renderer: "svg",
-      actions: false
-    }).then(function (result) {
-    }).catch(console.error);
+    vegaEmbed('#vis4', specVis4, opt).then(function (result) {
+    }).catch((error) => {
+      console.error("Error embedding visualization:", error);
+    });
 
-    vegaEmbed('#vis5', specVis5, opt = {
-      renderer: "svg",
-      actions: false
-    }).then(function (result) {
-    }).catch(console.error);
+    vegaEmbed('#vis5', specVis5, opt).then(function (result) {
+    }).catch((error) => {
+      console.error("Error embedding visualization:", error);
+    });
   </script>
 </body>
 

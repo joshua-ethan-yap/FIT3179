@@ -34,6 +34,7 @@ body {
 
 .card-body {
     padding: 20px;
+    padding-bottom: 0px;
     line-height: 1.5;
 }
 
@@ -47,18 +48,4 @@ body {
 
 .text-muted {
     color: #6c757d;
-}
-
-.pure-g {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.pure-u-1-1 {
-    width: 100%;
-}
-
-.pure-u-md-2-3 {
-    width: 66.67%;
 }

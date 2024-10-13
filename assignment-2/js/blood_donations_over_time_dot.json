@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": "container",
-    "height": 400,
+    "height": 300,
     "title": "Blood Donations in 2006 and 2023 Across States",
     "data": {
       "url": "https://raw.githubusercontent.com/joshua-ethan-yap/FIT3179/main/assignment-2/data/population_donations_income_by_state.csv"

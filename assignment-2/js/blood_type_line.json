@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": "container",
-    "height": 400,
+    "height": 300,
     "data": {
         "url": "https://raw.githubusercontent.com/joshua-ethan-yap/FIT3179/refs/heads/main/assignment-2/data/blood_donations_by_type.csv"
     },
